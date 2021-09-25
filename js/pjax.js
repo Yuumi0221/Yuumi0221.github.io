@@ -1,32 +1,31 @@
-/* global NexT, CONFIG, Pjax */
+/* global Yun */
 
-const pjax = new Pjax({
-  selectors: [
-    'head title',
-    'script[type="application/json"]',
-    '.main-inner',
-    '.post-toc-wrap',
-    '.languages',
-    '.pjax'
-  ],
-  analytics: false,
-  cacheBust: false,
-  scrollTo : !CONFIG.bookmark.enable
-});
-
-document.addEventListener('pjax:success', () => {
-  pjax.executeScripts(document.querySelectorAll('script[data-pjax]'));
-  NexT.boot.refresh();
-  // Define Motion Sequence & Bootstrap Motion.
-  if (CONFIG.motion.enable) {
-    NexT.motion.integrator
-      .init()
-      .add(NexT.motion.middleWares.subMenu)
-      .add(NexT.motion.middleWares.postList)
-      .bootstrap();
+/**
+ * 判断是否为主页，以决定是否显示侧边栏
+ * (非 PJAX 已预渲染，无需判断)
+ */
+function isHome() {
+  if (window.location.pathname === CONFIG.root) {
+    document.body.classList.add("is-home");
+  } else {
+    document.body.classList.remove("is-home");
   }
-  const hasTOC = document.querySelector('.post-toc');
-  document.querySelector('.sidebar-inner').classList.toggle('sidebar-nav-active', hasTOC);
-  NexT.utils.activateSidebarPanel(hasTOC ? 0 : 1);
-  NexT.utils.updateSidebarPosition();
-});
+}
+
+function initPjax() {
+  new Pjax({
+    selectors: ["title", ".js-Pjax", "main", "aside"],
+  });
+}
+
+/**
+ * 使用 PJAX 成功时触发
+ */
+function onPjaxSuccess() {
+  isHome();
+  Yun.utils.renderKatex();
+}
+
+document.addEventListener("DOMContentLoaded", initPjax);
+document.addEventListener("DOMContentLoaded", isHome);
+document.addEventListener("pjax:success", onPjaxSuccess);
