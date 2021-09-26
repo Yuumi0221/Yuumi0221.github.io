@@ -155,7 +155,7 @@ hr {
   margin: 1rem;
 }
 details {
-  border: 1px solid var(--smc-secondary);
+  border: 1px solid #d69b54;
   margin: 1rem 0;
 }
 details[open] {
@@ -167,7 +167,7 @@ summary {
   background-color: rgba(214,155,84,0.1);
 }
 details[open] summary {
-  border-bottom: 1px solid var(--smc-secondary);
+  border-bottom: 1px solid #d69b54;
   margin: -1rem -1rem 1rem -1rem;
 }
 html {
