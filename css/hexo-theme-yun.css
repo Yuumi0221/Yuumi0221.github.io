@@ -1,6 +1,6 @@
 :root {
   --hty-primary-color: #ffa61f;
-  --hty-inverse-color: #ff8718;
+  --hty-inverse-color: #8e71c1;
   --hty-success-color: #21ba45;
   --hty-warning-color: #f2711c;
   --hty-danger-color: #db2828;
@@ -13,9 +13,9 @@
   --blockquote-bg-color: rgba(255,166,31,0.1);
 }
 .inverse {
-  color: #e46e00;
+  color: #724eb2;
   --blockquote-border-left-color: var(--hty-inverse-color);
-  --blockquote-bg-color: rgba(255,135,24,0.1);
+  --blockquote-bg-color: rgba(142,113,193,0.1);
 }
 .success {
   color: #198f35;
