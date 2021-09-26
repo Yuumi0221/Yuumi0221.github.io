@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>我又来了</title>
+      <link href="/2021/09/25/%E6%88%91%E5%8F%88%E6%9D%A5%E4%BA%86/"/>
+      <url>/2021/09/25/%E6%88%91%E5%8F%88%E6%9D%A5%E4%BA%86/</url>
+      
+        <content type="html"><![CDATA[<p>然而里面什么内容都没有</p><span id="more"></span><p><del>别人的代码</del></p><pre class="language-typescript" data-language="typescript"><code class="language-typescript"><span class="token comment">// 用了里面的矩阵（虽然自己遍历也行）</span><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> math <span class="token keyword">from</span> <span class="token string">"mathjs"</span><span class="token punctuation">;</span><span class="token comment">/** * 计算高斯权重数值 * @param x X坐标 * @param y Y坐标 * @param sigma */</span><span class="token keyword">function</span> <span class="token function">calculateGaussianWeight</span><span class="token punctuation">(</span>x<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> y<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> sigma<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>  <span class="token keyword">const</span> <span class="token constant">PI</span> <span class="token operator">=</span> Math<span class="token punctuation">.</span><span class="token constant">PI</span><span class="token punctuation">;</span>  <span class="token comment">// 方差</span>  <span class="token keyword">const</span> variance <span class="token operator">=</span> sigma <span class="token operator">*</span> sigma<span class="token punctuation">;</span>  <span class="token keyword">const</span> weight <span class="token operator">=</span>    <span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">/</span> <span class="token punctuation">(</span><span class="token number">2</span> <span class="token operator">*</span> <span class="token constant">PI</span> <span class="token operator">*</span> variance<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">*</span> Math<span class="token punctuation">.</span><span class="token function">exp</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token punctuation">(</span>x <span class="token operator">*</span> x <span class="token operator">+</span> y <span class="token operator">*</span> y<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token punctuation">(</span><span class="token number">2</span> <span class="token operator">*</span> variance<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token keyword">return</span> weight<span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token comment">/** * 生成高斯矩阵 * @param radius 模糊半径 * @param sigma σ 0.3*(radius - 1)+0.8 */</span><span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">generateGaussianMatrix</span><span class="token punctuation">(</span>radius<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">,</span> sigma<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>sigma<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    sigma <span class="token operator">=</span> <span class="token number">0.3</span> <span class="token operator">*</span> <span class="token punctuation">(</span>radius <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">0.8</span><span class="token punctuation">;</span>  <span class="token punctuation">&#125;</span>  <span class="token comment">// 矩阵尺寸</span>  <span class="token keyword">const</span> mSize <span class="token operator">=</span> radius <span class="token operator">*</span> <span class="token number">2</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>  <span class="token keyword">let</span> gMatrix <span class="token operator">=</span> math<span class="token punctuation">.</span><span class="token function">matrix</span><span class="token punctuation">(</span>math<span class="token punctuation">.</span><span class="token function">ones</span><span class="token punctuation">(</span>mSize<span class="token punctuation">,</span> mSize<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  gMatrix<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span>val<span class="token punctuation">,</span> index<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>    <span class="token keyword">const</span> x <span class="token operator">=</span> index<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">-</span> radius<span class="token punctuation">;</span>    <span class="token keyword">const</span> y <span class="token operator">=</span> index<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">-</span> radius<span class="token punctuation">;</span>    gMatrix<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span>index <span class="token keyword">as</span> <span class="token builtin">any</span><span class="token punctuation">,</span> <span class="token function">calculateGaussianWeight</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> sigma<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  gMatrix <span class="token operator">=</span> <span class="token function">normalization</span><span class="token punctuation">(</span>gMatrix<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token keyword">return</span> gMatrix<span class="token punctuation">;</span><span class="token punctuation">&#125;</span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Other </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Test2</title>
+      <link href="/2021/09/24/Test2/"/>
+      <url>/2021/09/24/Test2/</url>
+      
+        <content type="html"><![CDATA[<p>这回一定要图片插入成功！！</p><span id="more"></span><p>好像成功了？</p><p><img src="/images/Test2/1.jpg" alt="1" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Other </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Test</title>
+      <link href="/2021/09/24/Test/"/>
+      <url>/2021/09/24/Test/</url>
+      
+        <content type="html"><![CDATA[<h2 id="哇，好牛啊！"><a href="#哇，好牛啊！" class="headerlink" title="哇，好牛啊！"></a>哇，好牛啊！</h2><p>我的妈呀，真厉害！</p><span id="more"></span><div class="primary"><blockquote><p>放张图片进来试试</p><p>呜呜呜呜</p></blockquote></div><p><code>诶？！</code></p><pre class="language-none"><code class="language-none">还行！</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Other </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2021/09/24/hello-world/"/>
+      <url>/2021/09/24/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><span id="more"></span><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
