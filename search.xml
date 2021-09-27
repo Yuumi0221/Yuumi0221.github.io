@@ -33,7 +33,7 @@
       <link href="/2021/09/24/Test2/"/>
       <url>/2021/09/24/Test2/</url>
       
-        <content type="html"><![CDATA[<p>这回一定要图片插入成功！！</p><span id="more"></span><p>好像成功了？</p><p><img src="/images/Test2/1.jpg" alt="1" loading="lazy"></p>]]></content>
+        <content type="html"><![CDATA[<p>这回一定要图片插入成功！！</p><span id="more"></span><p>好像成功了？</p><p><img src="/images/Test2/1.jpg" alt="1" loading="lazy"><em>看我帅气的面庞</em></p>]]></content>
       
       
       <categories>
