@@ -6,7 +6,7 @@
   <link href="http://yuumi0221.github.io/atom.xml" rel="self"/>
   
   <link href="http://yuumi0221.github.io/"/>
-  <updated>2021-10-10T06:18:02.913Z</updated>
+  <updated>2021-10-12T15:38:45.056Z</updated>
   <id>http://yuumi0221.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图片像素颜色的可视化</title>
+    <link href="http://yuumi0221.github.io/2021/10/12/getColor/"/>
+    <id>http://yuumi0221.github.io/2021/10/12/getColor/</id>
+    <published>2021-10-12T15:25:55.000Z</published>
+    <updated>2021-10-12T15:38:45.056Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="课程作业"><a href="#课程作业" class="headerlink" title="课程作业"></a>课程作业</h2><p>基于已完成的练习，实现一个图片颜色的可视化页面，基本功能要求如下：</p><ol><li><p>对图片中的颜色进行聚类，类的数量K可在代码中指定（聚类算法可使用k-means等）；</p></li><li><p>需可视化的信息包含2个维度：</p><p>（1）聚类中心的颜色或颜色均值；</p><p>（2）某类里颜色的数量。</p></li><li><p>选择一种EChart可视化样式对聚类结果进行展示。</p></li></ol><h2 id="进阶功能（不强制要求）"><a href="#进阶功能（不强制要求）" class="headerlink" title="进阶功能（不强制要求）"></a>进阶功能（不强制要求）</h2><ol><li><p>可交互式选择不同的图片；</p></li><li><p>可切换可视化样式（例如，可在饼图柱状图等图表间切换）；</p></li><li><p>其他功能</p></li></ol><h2 id="完成效果"><a href="#完成效果" class="headerlink" title="完成效果"></a>完成效果</h2><iframe id="graph1" title="graph1" src="/html/getColor/getColor.html" height="700px" width="100%" scrolling="auto" frameborder="0"></iframe>]]></content>
+    
+    
+    <summary type="html">是数据可视化的小作业</summary>
+    
+    
+    
+    <category term="小作业" scheme="http://yuumi0221.github.io/categories/%E5%B0%8F%E4%BD%9C%E4%B8%9A/"/>
+    
+    
+    <category term="作业" scheme="http://yuumi0221.github.io/tags/%E4%BD%9C%E4%B8%9A/"/>
+    
+    <category term="JavaScript" scheme="http://yuumi0221.github.io/tags/JavaScript/"/>
+    
+    <category term="HTML" scheme="http://yuumi0221.github.io/tags/HTML/"/>
+    
+    <category term="K-means" scheme="http://yuumi0221.github.io/tags/K-means/"/>
+    
+    <category term="ECharts" scheme="http://yuumi0221.github.io/tags/ECharts/"/>
+    
+  </entry>
   
   <entry>
     <title>将EChart图表嵌入Hexo博客中</title>
@@ -33,11 +62,11 @@
     <category term="小教程" scheme="http://yuumi0221.github.io/categories/%E5%B0%8F%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="Hexo" scheme="http://yuumi0221.github.io/tags/Hexo/"/>
-    
     <category term="HTML" scheme="http://yuumi0221.github.io/tags/HTML/"/>
     
     <category term="ECharts" scheme="http://yuumi0221.github.io/tags/ECharts/"/>
+    
+    <category term="Hexo" scheme="http://yuumi0221.github.io/tags/Hexo/"/>
     
   </entry>
   
@@ -58,11 +87,11 @@
     <category term="小日记" scheme="http://yuumi0221.github.io/categories/%E5%B0%8F%E6%97%A5%E8%AE%B0/"/>
     
     
+    <category term="HTML" scheme="http://yuumi0221.github.io/tags/HTML/"/>
+    
     <category term="日记" scheme="http://yuumi0221.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
     <category term="Hexo" scheme="http://yuumi0221.github.io/tags/Hexo/"/>
-    
-    <category term="HTML" scheme="http://yuumi0221.github.io/tags/HTML/"/>
     
   </entry>
   

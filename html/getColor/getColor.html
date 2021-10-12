@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kmeans获取图片主色</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .colorPanel div {
+        height: 20px;
+        display: flex;
+      }
+      .colorPanel div span {
+        height: 20px;
+        width: 20px;
+        display: block;
+      }
+      canvas {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+      }
+      section {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Kmeans获取图主颜色</h2>
+    <main>
+      <canvas></canvas>
+      <section>
+        <input id="uploadFile" type="file" />
+        <input class="k" type="number" placeholder="需要输出几种颜色？" />
+        <button class="start">Start</button>
+      </section>
+      <div class="colorPanel"></div>
+    </main>
+  </body>
+  <script src="./getColor.js"></script>
+  <script>
+    let file = null;
+    let canvas = document.querySelector("canvas");
+    let colorPanel = document.querySelector(".colorPanel");
+    let image = new Image();
+    let reader = new FileReader();
+    let targetHeight, targetWidth;
+    image.onload = function () {
+      let context = canvas.getContext("2d");
+      let maxWidth = 500,
+        maxHeight = 500;
+      targetWidth = image.width;
+      targetHeight = image.height;
+      let originWidth = image.width,
+        originHeight = image.height;
+      if (originWidth / originHeight > maxWidth / maxHeight) {
+        targetWidth = maxWidth;
+        targetHeight = Math.round(maxWidth * (originHeight / originWidth));
+      } else {
+        targetHeight = maxHeight;
+        targetWidth = Math.round(maxHeight * (originWidth / originHeight));
+      }
+      canvas.width = targetWidth;
+      canvas.height = targetHeight;
+      context.drawImage(image, 0, 0, targetWidth, targetHeight);
+    };
+    reader.onload = function (e) {
+      image.src = e.target.result;
+    };
+    document.querySelector("#uploadFile").onchange = function (e) {
+      file = event.target.files[0];
+      if (file.type.indexOf("image") == 0) {
+        reader.readAsDataURL(file);
+      }
+    };
+    document.querySelector("button.start").onclick = function () {
+      let context = canvas.getContext("2d");
+      let K = parseInt(document.querySelector("input.k").value);
+      if (K <= 0) {
+        alert("请输入正确参数");
+        return;
+      }
+      document.querySelector(".colorPanel").innerHTML = "";
+      main(
+        context,
+        { height: targetHeight, width: targetWidth },
+        colorPanel,
+        K,
+        1
+      );
+    };
+  </script>
+</html>

@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>图片像素颜色的可视化</title>
+      <link href="/2021/10/12/getColor/"/>
+      <url>/2021/10/12/getColor/</url>
+      
+        <content type="html"><![CDATA[<h2 id="课程作业"><a href="#课程作业" class="headerlink" title="课程作业"></a>课程作业</h2><p>基于已完成的练习，实现一个图片颜色的可视化页面，基本功能要求如下：</p><ol><li><p>对图片中的颜色进行聚类，类的数量K可在代码中指定（聚类算法可使用k-means等）；</p></li><li><p>需可视化的信息包含2个维度：</p><p>（1）聚类中心的颜色或颜色均值；</p><p>（2）某类里颜色的数量。</p></li><li><p>选择一种EChart可视化样式对聚类结果进行展示。</p></li></ol><h2 id="进阶功能（不强制要求）"><a href="#进阶功能（不强制要求）" class="headerlink" title="进阶功能（不强制要求）"></a>进阶功能（不强制要求）</h2><ol><li><p>可交互式选择不同的图片；</p></li><li><p>可切换可视化样式（例如，可在饼图柱状图等图表间切换）；</p></li><li><p>其他功能</p></li></ol><h2 id="完成效果"><a href="#完成效果" class="headerlink" title="完成效果"></a>完成效果</h2><iframe id="graph1" title="graph1" src="/html/getColor/getColor.html" height="700px" width="100%" scrolling="auto" frameborder="0"></iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 小作业 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 作业 </tag>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> HTML </tag>
+            
+            <tag> K-means </tag>
+            
+            <tag> ECharts </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>将EChart图表嵌入Hexo博客中</title>
       <link href="/2021/10/08/testEchart/"/>
       <url>/2021/10/08/testEchart/</url>
@@ -20,11 +53,11 @@
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> HTML </tag>
             
             <tag> ECharts </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -49,11 +82,11 @@
       
         <tags>
             
+            <tag> HTML </tag>
+            
             <tag> 日记 </tag>
             
             <tag> Hexo </tag>
-            
-            <tag> HTML </tag>
             
         </tags>
       
