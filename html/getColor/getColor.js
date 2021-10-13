@@ -1,22 +1,22 @@
-/**
- * 像素辅助类
- *
- * @class Pixel
- */
- class Pixel {
-    constructor(r, g, b) {
-      this._r = r;
-      this._g = g;
-      this._b = b;
+  /**
+   * 像素辅助类
+   *
+   * @class Pixel
+   */
+   class Pixel {
+      constructor(r, g, b) {
+        this._r = r;
+        this._g = g;
+        this._b = b;
+      }
+      get rgb() {
+        return {
+          r: this._r,
+          g: this._g,
+          b: this._b,
+        };
+      }
     }
-    get rgb() {
-      return {
-        r: this._r,
-        g: this._g,
-        b: this._b,
-      };
-    }
-  }
   
   /**
    * 图像的RGB颜色空间中对应的点集合
@@ -110,7 +110,12 @@
       }
     }
   }
-  
+
+  /**
+   * 获取每个类的像素数量
+   */
+  var cnt = new Array(300).fill(0);
+
   /**
    * 用来分类
    *
@@ -128,6 +133,7 @@
       let min = Math.min(...distanceArray);
       let minIndex = distanceArray.indexOf(min);
       ClusterList[minIndex].addToCluster(pixel);
+      cnt[minIndex]++;
     });
     // 重新计算每个cluster的centroid，并将原来的clusterList返回
     return ClusterList.map((Cluster) => {
@@ -158,10 +164,11 @@
    * @param {*} context
    * @param {*} image
    * @param {*} colorPanel
+   * @param {*} eCharts
    * @param {*} K
    * @param {*} threshold
    */
-  function main(context, image, colorPanel, K, threshold) {
+  function main(context, image, colorPanel, eCharts, K, threshold, choose) {
     // 获取一个RGBSpace类的实例
     let space = new RGBSpace(context, image);
     // 随机选取K个像素，并作为K个cluster的centroid
@@ -179,19 +186,211 @@
     }
     // 一直循环，直到各个cluster的centroid都和上一次的centroid“足够近”
     while (true) {
-      console.log(i++);
+      //console.log(i++);
       let oldClusterList = classify(ClusterList, space);
-      console.log(oldClusterList);
+      //console.log(oldClusterList);
       if (isCloseEnough(oldClusterList, ClusterList, threshold)) {
         break;
       }
-      // 将结果展示到对应色板上
-      if (colorPanel) {
-        ClusterList.forEach((cc, index) => {
-          let div = document.createElement("span");
-          div.style.backgroundColor = `rgb(${cc._centerR},${cc._centerG},${cc._centerB})`;
-          colorPanel.children[index].appendChild(div);
-        });
+      else {
+        cnt.fill(0);
       }
     }
+    // 将结果展示到对应色板上
+    if (colorPanel) {
+      ECharts(ClusterList, colorPanel, eCharts, choose);
+    }
   }
+
+  /**
+   * 使用ECharts画图
+   *
+   * @param {*} ClusterList
+   * @param {*} colorPanel
+   * @param {*} eCharts
+   */
+  function ECharts(ClusterList, colorPanel, eCharts, choose){
+    var RGB = new Array();
+    RGB[0] = "RGB";
+    var i = 0;
+    ClusterList.forEach((cc, index) => {
+      i++;
+      let div = document.createElement("span");
+      div.style.backgroundColor = `rgb(${cc._centerR},${cc._centerG},${cc._centerB})`;
+      //colorPanel.children[index].appendChild(div);
+      RGB[i] = `rgb(${cc._centerR},${cc._centerG},${cc._centerB})`;
+    });
+
+    console.log(RGB);
+
+    //var dom = document.getElementById("container");
+    let dom = document.createElement("dom");
+    dom.className = `eChart`;
+    eCharts.appendChild(dom);
+
+    var resizeMainContainer = function () {
+      dom.style.width = window.innerWidth*0.8+'px';
+      dom.style.height = window.innerHeight*0.8+'px';
+    };
+    //设置div容器高宽
+    resizeMainContainer();
+    // 初始化图表
+    var myChart = echarts.init(dom);
+    // $(window).on('resize',function(){//
+    //   //屏幕大小自适应，重置容器高宽
+    //   resizeMainContainer();
+    //   myChart.resize();
+    // });
+
+    var optionPie;
+    var optionBar;
+
+    // var hexColor = new Array();
+    // hexColor[0] = "HexColor";
+    // for (j=1; j<=i; j++) hexColor[j] = RGB[j].colorHex();
+    // console.log(hexColor);
+
+    //饼图
+    optionPie = {
+      title: {
+        text: '主颜色数量',
+        left: 'center'
+      },
+      tooltip: {
+        trigger: 'item'
+      },
+      legend: {
+        orient: 'vertical',
+        left: 'left'
+      },
+      series: [
+        {
+          name: '颜色数量',
+          type: 'pie',
+          radius: '60%',
+          data: getJSONpie(RGB, cnt, i),
+          emphasis: {
+            itemStyle: {
+              shadowBlur: 10,
+              shadowOffsetX: 0,
+              shadowColor: 'rgba(0, 0, 0, 0.5)'
+            }
+          }
+        }
+      ]
+    };
+
+    var num = [];
+    for (j=0; j<i; j++) num.push(`颜色${j+1}`);
+
+    //柱状图
+    optionBar = {
+      title: {
+        text: '主颜色数量',
+        left: 'center'
+      },
+      tooltip: {
+        trigger: 'item'
+      },
+      legend: {
+        orient: 'vertical',
+        left: 'left'
+      },
+      xAxis: {
+        type: 'category',
+        data: num,
+        name: '颜色'
+      },
+      yAxis: {
+        type: 'value',
+        name: '数量'
+      },
+      series: [
+        {
+          data: getJSONbar(RGB, cnt, i),
+          type: 'bar'
+        }
+      ]
+    };
+
+    if (optionPie && typeof optionPie === 'object' && choose==1) {
+      myChart.setOption(optionPie);
+    }
+
+    if (optionBar && typeof optionBar === 'object' && choose==2) {
+      myChart.setOption(optionBar);
+    }
+  }
+
+  /**
+   * 获取颜色饼图JSON
+   *
+   * @param {*} RGB
+   * @param {*} cnt
+   * @param {*} i
+   */
+  function getJSONpie(RGB, cnt, i){
+    var jsonData = [];
+    //jsonData[0] = {};
+    var singleData = {};
+    for (var j=1; j<=i; j++){
+      singleData = {value:cnt[j-1], name:`颜色${j}`, itemStyle: {color: RGB[j]}};
+      jsonData.push(singleData);
+    }
+    return jsonData;
+  }
+
+  /**
+   * 获取颜色柱状图JSON
+   *
+   * @param {*} RGB
+   * @param {*} cnt
+   * @param {*} i
+   */
+  function getJSONbar(RGB, cnt, i){
+    var jsonData = [];
+    //jsonData[0] = {};
+    var singleData = {};
+    for (var j=1; j<=i; j++){
+      singleData = {value:cnt[j-1], itemStyle: {color: RGB[j]}};
+      jsonData.push(singleData);
+    }
+    return jsonData;
+  }
+
+  /**
+   * RGB(整数)转十六进制
+   */
+  String.prototype.colorHex = function(){
+    var that = this;
+    //十六进制颜色值的正则表达式
+    var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+    // 如果是rgb颜色表示
+    if (/^(rgb|RGB)/.test(that)) {
+      var aColor = that.replace(/(?:\(|\)|rgb|RGB)*/g, "").split(",");
+      var strHex = "#";
+      for (var i=0; i<aColor.length; i++) {
+        var hex = Number(aColor[i]).toString(16);
+        if (hex.length < 2) {
+          hex = '0' + hex;
+        }
+        strHex += hex;
+      }
+      if (strHex.length !== 7) {
+        strHex = that;
+      }
+      return strHex;
+    } else if (reg.test(that)) {
+      var aNum = that.replace(/#/,"").split("");
+      if (aNum.length === 6) {
+        return that;
+      } else if(aNum.length === 3) {
+        var numHex = "#";
+        for (var i=0; i<aNum.length; i+=1) {
+          numHex += (aNum[i] + aNum[i]);
+        }
+        return numHex;
+      }
+    }
+    return that;
+  };

@@ -6,7 +6,7 @@
   <link href="http://yuumi0221.github.io/atom.xml" rel="self"/>
   
   <link href="http://yuumi0221.github.io/"/>
-  <updated>2021-10-12T15:38:45.056Z</updated>
+  <updated>2021-10-13T03:12:09.551Z</updated>
   <id>http://yuumi0221.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yuumi0221.github.io/2021/10/12/getColor/"/>
     <id>http://yuumi0221.github.io/2021/10/12/getColor/</id>
     <published>2021-10-12T15:25:55.000Z</published>
-    <updated>2021-10-12T15:38:45.056Z</updated>
+    <updated>2021-10-13T03:12:09.551Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="课程作业"><a href="#课程作业" class="headerlink" title="课程作业"></a>课程作业</h2><p>基于已完成的练习，实现一个图片颜色的可视化页面，基本功能要求如下：</p><ol><li><p>对图片中的颜色进行聚类，类的数量K可在代码中指定（聚类算法可使用k-means等）；</p></li><li><p>需可视化的信息包含2个维度：</p><p>（1）聚类中心的颜色或颜色均值；</p><p>（2）某类里颜色的数量。</p></li><li><p>选择一种EChart可视化样式对聚类结果进行展示。</p></li></ol><h2 id="进阶功能（不强制要求）"><a href="#进阶功能（不强制要求）" class="headerlink" title="进阶功能（不强制要求）"></a>进阶功能（不强制要求）</h2><ol><li><p>可交互式选择不同的图片；</p></li><li><p>可切换可视化样式（例如，可在饼图柱状图等图表间切换）；</p></li><li><p>其他功能</p></li></ol><h2 id="完成效果"><a href="#完成效果" class="headerlink" title="完成效果"></a>完成效果</h2><iframe id="graph1" title="graph1" src="/html/getColor/getColor.html" height="700px" width="100%" scrolling="auto" frameborder="0"></iframe>]]></content>
+    <content type="html"><![CDATA[<div class="primary"><blockquote><p>又是妄想一夜学会JS和HTML的一天</p></blockquote></div><h2 id="课程作业"><a href="#课程作业" class="headerlink" title="课程作业"></a>课程作业</h2><p>基于已完成的练习，实现一个图片颜色的可视化页面，基本功能要求如下：</p><ol><li><p>对图片中的颜色进行聚类，类的数量K可在代码中指定（聚类算法可使用k-means等）；</p></li><li><p>需可视化的信息包含2个维度：</p><p>（1）聚类中心的颜色或颜色均值；</p><p>（2）某类里颜色的数量。</p></li><li><p>选择一种EChart可视化样式对聚类结果进行展示。</p></li></ol><h2 id="进阶功能（不强制要求）"><a href="#进阶功能（不强制要求）" class="headerlink" title="进阶功能（不强制要求）"></a>进阶功能（不强制要求）</h2><ol><li><p>可交互式选择不同的图片；</p></li><li><p>可切换可视化样式（例如，可在饼图柱状图等图表间切换）；</p></li><li><p>其他功能</p></li></ol><h2 id="已完成内容"><a href="#已完成内容" class="headerlink" title="已完成内容"></a>已完成内容</h2><ul><li>选择本地图片文件</li><li>输入k值，聚类获取图片主颜色及其颜色数量</li><li>输入1或2，得到饼图或柱状图</li></ul><h2 id="完成效果"><a href="#完成效果" class="headerlink" title="完成效果"></a>完成效果</h2><iframe id="graph1" title="graph1" src="/html/getColor/getColor.html" height="1000px" width="100%" scrolling="auto" frameborder="0"></iframe>## 待完善内容<ul><li>界面美化（再说吧……）</li><li>算得太慢，K-means算法待优化</li><li>开局随机取点，聚类效果因图和k值而异，如何使结果趋于稳定？</li></ul>]]></content>
     
     
     <summary type="html">是数据可视化的小作业</summary>

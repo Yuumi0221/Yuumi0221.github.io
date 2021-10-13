@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kmeans获取图片主色</title>
+    <title>图片像素颜色的可视化</title>
     <style>
       body {
         display: flex;
@@ -16,13 +16,22 @@
         align-items: center;
       }
       .colorPanel div {
-        height: 20px;
+        height: 0px;
         display: flex;
       }
       .colorPanel div span {
+        height: 0px;
+        width: 20px;
+        display: flow;
+      }
+      .eCharts div {
+        height: 20px;
+        display: flex;
+      }
+      .eCharts div span {
         height: 20px;
         width: 20px;
-        display: block;
+        display: flow;
       }
       canvas {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -34,22 +43,30 @@
     </style>
   </head>
   <body>
-    <h2>Kmeans获取图主颜色</h2>
+    <h2>图片像素颜色的可视化</h2>
     <main>
       <canvas></canvas>
       <section>
         <input id="uploadFile" type="file" />
         <input class="k" type="number" placeholder="需要输出几种颜色？" />
-        <button class="start">Start</button>
+        <input class="choose" type="number" placeholder="饼图:1, 柱状图:2" />
+        <button class="start">生成！</button>
       </section>
       <div class="colorPanel"></div>
+      <div class="eCharts"></div>
     </main>
   </body>
-  <script src="./getColor.js"></script>
-  <script>
+  <script type="text/javascript" src="./getColor.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"></script>
+  <script type='text/javascript' src='echarts.min.js'></script>
+  <script type='text/javascript' src='echarts-gl.min.js'></script>
+  <script type='text/javascript' src='ecStat.min.js'></script>
+  <script type='text/javascript' src='dataTool.min.js'></script>
+  <script type="text/javascript">
     let file = null;
     let canvas = document.querySelector("canvas");
     let colorPanel = document.querySelector(".colorPanel");
+    let eCharts = document.querySelector(".eCharts");
     let image = new Image();
     let reader = new FileReader();
     let targetHeight, targetWidth;
@@ -84,18 +101,27 @@
     document.querySelector("button.start").onclick = function () {
       let context = canvas.getContext("2d");
       let K = parseInt(document.querySelector("input.k").value);
-      if (K <= 0) {
+      if (K < 1) {
+        alert("请输入正确参数");
+        return;
+      }
+      let choose = parseInt(document.querySelector("input.choose").value);
+      if (choose < 1 || choose >2) {
         alert("请输入正确参数");
         return;
       }
       document.querySelector(".colorPanel").innerHTML = "";
+      document.querySelector(".eCharts").innerHTML="";
       main(
         context,
         { height: targetHeight, width: targetWidth },
         colorPanel,
+        eCharts,
         K,
-        1
+        0.05,
+        choose
       );
     };
+
   </script>
 </html>
