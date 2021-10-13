@@ -218,10 +218,18 @@
       let div = document.createElement("span");
       div.style.backgroundColor = `rgb(${cc._centerR},${cc._centerG},${cc._centerB})`;
       //colorPanel.children[index].appendChild(div);
-      RGB[i] = `rgb(${cc._centerR},${cc._centerG},${cc._centerB})`;
+      //四舍五入
+      var newR = Math.round(parseFloat(`${cc._centerR}`));
+      var newG = Math.round(parseFloat(`${cc._centerG}`));
+      var newB = Math.round(parseFloat(`${cc._centerB}`));
+      RGB[i] = "rgb(" + newR + "," + newG + "," + newB + ")";
     });
 
     console.log(RGB);
+    var hexColor = new Array();
+    hexColor[0] = "HexColor";
+    for (var j=1; j<=i; j++) hexColor[j] = RGB[j].colorHex();
+    console.log(hexColor);
 
     //var dom = document.getElementById("container");
     let dom = document.createElement("dom");
@@ -245,15 +253,10 @@
     var optionPie;
     var optionBar;
 
-    // var hexColor = new Array();
-    // hexColor[0] = "HexColor";
-    // for (j=1; j<=i; j++) hexColor[j] = RGB[j].colorHex();
-    // console.log(hexColor);
-
     //饼图
     optionPie = {
       title: {
-        text: '主颜色数量',
+        text: '主颜色',
         left: 'center'
       },
       tooltip: {
@@ -268,7 +271,7 @@
           name: '颜色数量',
           type: 'pie',
           radius: '80%',
-          data: getJSONpie(RGB, cnt, i),
+          data: getJSONpie(hexColor, cnt, i),
           emphasis: {
             itemStyle: {
               shadowBlur: 10,
@@ -281,12 +284,12 @@
     };
 
     var num = [];
-    for (j=0; j<i; j++) num.push(`颜色${j+1}`);
+    for (j=0; j<i; j++) num.push(hexColor[j+1]);
 
     //柱状图
     optionBar = {
       title: {
-        text: '主颜色数量',
+        text: '主颜色',
         left: 'center'
       },
       tooltip: {
@@ -307,7 +310,7 @@
       },
       series: [
         {
-          data: getJSONbar(RGB, cnt, i),
+          data: getJSONbar(hexColor, cnt, i),
           type: 'bar'
         }
       ]
@@ -329,12 +332,11 @@
    * @param {*} cnt
    * @param {*} i
    */
-  function getJSONpie(RGB, cnt, i){
+  function getJSONpie(hexColor, cnt, i){
     var jsonData = [];
-    //jsonData[0] = {};
     var singleData = {};
     for (var j=1; j<=i; j++){
-      singleData = {value:cnt[j-1], name:`颜色${j}`, itemStyle: {color: RGB[j]}};
+      singleData = {value:cnt[j-1], name:hexColor[j], itemStyle: {color: hexColor[j]}};
       jsonData.push(singleData);
     }
     return jsonData;
@@ -347,12 +349,11 @@
    * @param {*} cnt
    * @param {*} i
    */
-  function getJSONbar(RGB, cnt, i){
+  function getJSONbar(hexColor, cnt, i){
     var jsonData = [];
-    //jsonData[0] = {};
     var singleData = {};
     for (var j=1; j<=i; j++){
-      singleData = {value:cnt[j-1], itemStyle: {color: RGB[j]}};
+      singleData = {value:cnt[j-1], itemStyle: {color: hexColor[j]}};
       jsonData.push(singleData);
     }
     return jsonData;
