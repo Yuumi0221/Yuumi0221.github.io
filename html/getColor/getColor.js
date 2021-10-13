@@ -230,17 +230,17 @@
 
     var resizeMainContainer = function () {
       dom.style.width = window.innerWidth*0.8+'px';
-      dom.style.height = window.innerHeight*0.8+'px';
+      dom.style.height = window.innerHeight*0.4+'px';
     };
     //设置div容器高宽
     resizeMainContainer();
     // 初始化图表
     var myChart = echarts.init(dom);
-    // $(window).on('resize',function(){//
-    //   //屏幕大小自适应，重置容器高宽
-    //   resizeMainContainer();
-    //   myChart.resize();
-    // });
+    jQuery(window).on("resize", function() {
+      //屏幕大小自适应，重置容器高宽
+      resizeMainContainer();
+      myChart.resize();
+    });
 
     var optionPie;
     var optionBar;
@@ -267,7 +267,7 @@
         {
           name: '颜色数量',
           type: 'pie',
-          radius: '60%',
+          radius: '80%',
           data: getJSONpie(RGB, cnt, i),
           emphasis: {
             itemStyle: {

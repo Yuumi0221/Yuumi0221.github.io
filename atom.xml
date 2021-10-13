@@ -33,11 +33,11 @@
     <category term="小作业" scheme="http://yuumi0221.github.io/categories/%E5%B0%8F%E4%BD%9C%E4%B8%9A/"/>
     
     
+    <category term="HTML" scheme="http://yuumi0221.github.io/tags/HTML/"/>
+    
     <category term="作业" scheme="http://yuumi0221.github.io/tags/%E4%BD%9C%E4%B8%9A/"/>
     
     <category term="JavaScript" scheme="http://yuumi0221.github.io/tags/JavaScript/"/>
-    
-    <category term="HTML" scheme="http://yuumi0221.github.io/tags/HTML/"/>
     
     <category term="K-means" scheme="http://yuumi0221.github.io/tags/K-means/"/>
     
@@ -62,11 +62,11 @@
     <category term="小教程" scheme="http://yuumi0221.github.io/categories/%E5%B0%8F%E6%95%99%E7%A8%8B/"/>
     
     
+    <category term="Hexo" scheme="http://yuumi0221.github.io/tags/Hexo/"/>
+    
     <category term="HTML" scheme="http://yuumi0221.github.io/tags/HTML/"/>
     
     <category term="ECharts" scheme="http://yuumi0221.github.io/tags/ECharts/"/>
-    
-    <category term="Hexo" scheme="http://yuumi0221.github.io/tags/Hexo/"/>
     
   </entry>
   
@@ -87,11 +87,11 @@
     <category term="小日记" scheme="http://yuumi0221.github.io/categories/%E5%B0%8F%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="HTML" scheme="http://yuumi0221.github.io/tags/HTML/"/>
-    
     <category term="日记" scheme="http://yuumi0221.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
     <category term="Hexo" scheme="http://yuumi0221.github.io/tags/Hexo/"/>
+    
+    <category term="HTML" scheme="http://yuumi0221.github.io/tags/HTML/"/>
     
   </entry>
   
