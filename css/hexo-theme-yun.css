@@ -1763,8 +1763,8 @@ input {
   bottom: 0;
   left: 0;
   width: 20rem;
-  background-color: #fff;
-  background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn@master/img/bg/alpha-stars-timing-1.webp");
+  background-color: rgba(255,255,255,0.6);
+  background-image: url("");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom 1rem center;
@@ -1853,7 +1853,7 @@ input {
   max-width: 100%;
   margin: 0px;
   padding: 4px;
-  background-color: #fff;
+  background-color: rgba(255,255,255,0);
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   transition: 0.4s;
 }
@@ -2165,7 +2165,7 @@ input {
     --hty-secondary-text-color: #eee;
     --banner-line-color: #fff;
     --banner-char-color: #fff;
-    --post-block-bg-color: #1b1f2e;
+    --post-block-bg-color: #1e2d31;
     --smc-link-color: #e2b987;
   }
   :root:not([data-user-color-scheme]) ::-webkit-input-placeholder {
@@ -2185,13 +2185,13 @@ input {
     background-color: var(--banner-char-color);
   }
   :root:not([data-user-color-scheme]) .sidebar {
-    background-color: rgba(27,31,46,0.95);
+    background-color: rgba(30,45,49,0.6);
     background-image: none;
   }
   :root:not([data-user-color-scheme]) .post-card {
     color: #fff;
-    background-color: rgba(27,31,46,0.8);
-    box-shadow: 0 1px 8px rgba(27,31,46,0.1);
+    background-color: rgba(30,45,49,0.8);
+    box-shadow: 0 1px 8px rgba(30,45,49,0.1);
   }
   :root:not([data-user-color-scheme]) .page-number-basic {
     background-color: rgba(0,0,0,0.5);
@@ -2232,7 +2232,7 @@ input {
   --hty-secondary-text-color: #eee;
   --banner-line-color: #fff;
   --banner-char-color: #fff;
-  --post-block-bg-color: #1b1f2e;
+  --post-block-bg-color: #1e2d31;
   --smc-link-color: #e2b987;
 }
 [data-user-color-scheme='dark'] ::-webkit-input-placeholder {
@@ -2252,13 +2252,13 @@ input {
   background-color: var(--banner-char-color);
 }
 [data-user-color-scheme='dark'] .sidebar {
-  background-color: rgba(27,31,46,0.95);
+  background-color: rgba(30,45,49,0.6);
   background-image: none;
 }
 [data-user-color-scheme='dark'] .post-card {
   color: #fff;
-  background-color: rgba(27,31,46,0.8);
-  box-shadow: 0 1px 8px rgba(27,31,46,0.1);
+  background-color: rgba(30,45,49,0.8);
+  box-shadow: 0 1px 8px rgba(30,45,49,0.1);
 }
 [data-user-color-scheme='dark'] .page-number-basic {
   background-color: rgba(0,0,0,0.5);
