@@ -1,0 +1,23 @@
+{
+  "name": "yuumi-blog",
+  "version": "0.14.17",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:ssg && npm run rss",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "aplayer": "^1.10.1",
+    "markdown": "^0.5.0",
+    "valaxy": "0.14.17",
+    "valaxy-addon-components": "^0.0.1",
+    "valaxy-theme-yun": "0.14.17"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

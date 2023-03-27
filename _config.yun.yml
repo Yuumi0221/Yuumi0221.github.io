@@ -1,0 +1,353 @@
+mode: auto
+
+head:
+  js:
+    async:
+      # 这里是你从 iconfont 处获得的图标链接。
+      iconfont: //at.alicdn.com/t/font_2833682_qn2a2qwzhnp.js
+      
+
+# 首页标语动画
+banner:
+  title: 
+    - Yuumi
+    - 的
+    - 烟
+    - 波
+    - 之
+    - 路
+  cloud:
+    color: "#fcf696"
+
+# 网站图标
+favicon: /yuumi.png
+
+# 边栏
+sidebar:
+  bg_image: /images/settings/Yuumi_Icon.png
+  dark_bg_image: /images/settings/Yuumi_Icon.png
+  bg_position: bottom 1rem center
+
+# 默哀日
+mourn:
+  enable: true
+  days:
+    - "4-4"
+    - "12-1"
+
+# 主题色
+colors:
+  primary: "#D69B54"
+  # bg: "#F5F5F5"
+  selection_bg: '#a25430' # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  tag_start_color: '#a25430'
+  tag_end_color: '#d3862e'
+  dark:
+    block: '#1e2d31'
+  inverse: '#8e71c1'
+  success: '#a2bd2c'
+  warning: '#f2711c'
+  danger: '#dc706d'
+  info: '#7ec6e3'
+  link: '#7f91c8'
+
+# 背景图片
+bg_image:
+  url: /images/settings/background.png
+  dark: /images/settings/bgdark.jpg
+  opacity: 1
+
+# 烟花
+fireworks:
+  colors:
+    - "255, 229, 125"   # 黄色
+    - "255, 205, 136"   # 橙色
+    - "230, 244, 173"   # 绿色
+
+# 头像
+avatar:
+  url: /images/settings/favicon.ico
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 💛
+    message: Looking for dawn.
+
+
+# 社交
+social:
+  - name: RSS
+    link: /atom.xml # config.feed.path
+    icon: ri:rss-line
+    color: orange
+  - name: 网易云音乐
+    link: http://music.163.com/artist?id=30377410&userid=436730182
+    icon: ri:netease-cloud-music-line
+    color: "#C10D0C"
+  - name: 微博
+    link: https://weibo.com/u/3075122387
+    icon: ri:weibo-line
+    color: "#E6162D"
+  - name: bilibili
+    link: https://space.bilibili.com/7498906
+    icon: ri:bilibili-line
+    color: "#FF8EB3"
+  - name: Notion
+    link: https://yuumis.notion.site
+    icon: icon-notion
+    color: "#717171"
+  - name: GitHub
+    link: https://github.com/Yuumi0221
+    icon: ri:github-line
+    color: "#9b9b9b"
+  - name: E-Mail
+    link: mailto:yuumi0221@outlook.com
+    icon: ri:mail-line
+    color: "#8E71C1"
+  - name: Pixiv
+    link: https://www.pixiv.net/users/10168567
+    icon: icon-pixiv-copy
+    # color: "#0096FA"
+  - name: 知乎
+    link: https://www.zhihu.com/people/yuumi-81
+    icon: ri:zhihu-line
+    color: "#0084FF"
+  - name: Twitter
+    link: https://twitter.com/Yuumi12118924
+    icon: ri:twitter-line
+    color: "#1da1f2"
+
+# 导航
+
+
+# 文章
+   # 内容卡片 
+post_card:
+  opacity: 0.8
+  
+   # 内容信息
+post_meta:
+  item_text: false
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+
+# 代码高亮
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
+
+# 版权
+creative_commons:
+  clipboard: false
+
+# 页脚
+footer:
+  since: 2021
+  icon:
+    color: "#d69b54"
+
+katex:
+  copy_tex: true
+
+# 编辑
+post_edit:
+  enable: false
+
+  # 打钱
+reward:
+  enable: true
+  comment: 内个……如果可以的话……
+  methods:
+    - name: 支付宝
+      path: /images/settings/zfb.jpg
+      color: "#00A3EE"
+      icon: ri:alipay-line
+    - name: 微信支付
+      path: /images/settings/wx.png
+      color: "#2DC100"
+      icon: ri:wechat-pay-line
+    - name: QQ 支付
+      path: /images/settings/qq.png
+      color: "#12B7F5"
+      icon: ri:qq-line
+
+# 标签
+wordcloud:
+  enable: false
+  height: 450
+
+# 评论
+comment:
+  candidates:
+    - waline
+    # - giscus
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/Yuumi0221/Yuumi0221.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流
+
+waline:
+  enable: true
+  serverURL: https://comment.yuumi.link
+  visitor: true
+  comment: true
+  locale:
+    placeholder: 填写qq邮箱或点击登录，可以展示个人头像~详情请见【留言板】板块
+  requiredMeta: [nick]
+  emoji: 
+    - https://unpkg.com/@waline/emojis@1.1.0/bmoji
+    - https://unpkg.com/@waline/emojis@1.1.0/weibo
+    - https://unpkg.com/@waline/emojis@1.1.0/qq
+    - https://unpkg.com/@waline/emojis@1.1.0/tieba
+  reaction: 
+    - https://unpkg.com/@waline/emojis@1.1.0/bmoji/bmoji_thumb_up.png
+    - https://unpkg.com/@waline/emojis@1.1.0/bmoji/bmoji_call.png
+    - https://unpkg.com/@waline/emojis@1.1.0/bmoji/bmoji_not_open.png
+    - https://unpkg.com/@waline/emojis@1.1.0/tieba/tieba_satisfied.png
+    - https://unpkg.com/@waline/emojis@1.1.0/tieba/tieba_cry.png
+    - https://unpkg.com/@waline/emojis@1.1.0/tw/1f605.png
+
+
+# CDN
+vendors:
+  host: 'https://fastly.jsdelivr.net/npm/'
+
+# pjax
+pjax:
+  enable: true
+
+
+github_issues:
+  enable: false
+
+github_discussions:
+  enable: false
+
+disqusjs:
+  enable: false
+  shortname: Yuumi
+  apikey: # ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
+
+# https://github.com/laymonage/giscus
+giscus:
+  enable: false
+  repo: Yuumi0221/Yuumi0221.github.io
+  repo-id:
+  category-id:
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: auto
+
+# 引擎搜索
+engine_search:
+  enable: false
+
+# 本地搜索
+local_search:
+  enable: true
+# 谷歌分析
+google_analytics:
+  enable: false
+  id: G-SZSXG7VRWS
+
+# 不蒜子统计
+busuanzi:
+  enable: false
+  site_uv: true
+  site_uv_icon: ri:user-line
+  site_pv: true
+  site_pv_icon: ri:eye-line
+  page_pv: true
+  page_pv_icon: ri:eye-line
+
+leancloud_visitors:
+  enable: true
+  app_id: s3GDW9HqA7RyI3bPpqhxcdcS-MdYXbMMI
+  app_key: KBqwPHjmw23zVj5dzbd3sFaM
+
+
+albums:
+  enable: true
+
+girls:
+  enable: false
+
+# tags颜色
+tags:
+  动画: orange
+  音乐: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#bc4d48"
+  随笔: mediumpurple
+  游戏: "#d04d2d"
+  资源: "#2577b1"
+  日记: "#ccb44b"
+  #云游君配置
+  Parcel: "#21374b"
+  学习: saddlebrown
+  部落: "#DD306A"
+  科幻: midnightblue
+
+  # yun主题配置
+  Vue: "#4fc08d"
+  Hexo: "#0E83CD"
+  CSS: "#5298d1"
+  Node.js: "#026E00"
+  Git: "#F14E32"
+  React: "#61dafb"
+  Python: "#3776ab"
+  PHP: "#8892BF"
+  VS Code: "#0066B8"
+  JavaScript: "#F4DF4F"
+  TypeScript: "#317AC6"
+  Laravel: "#F4645F"
+
+# 分类颜色
+# categories:
+  # 小分享: "#bc4d48"
+
+# Extra links
+pages:
+  - name: 留言板
+    url: /comment/
+    icon: ri:clipboard-line
+    color: "#737de5"
+  - name: 相册
+    url: /albums/
+    icon: ri:gallery-line
+    color: "#43abee"
+  - name: 我的小伙伴们
+    url: /links/
+    icon: ri:open-arm-line
+    color: "#4bbea4"
+
+menu:
+  custom:
+    title: 幻灯片
+    path: /slides/
+    icon: ri:keynote-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+# 字数统计
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+say:
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn/?c=k&c=d&c=i
+
+custom:
+  style: source/_data/style/*
