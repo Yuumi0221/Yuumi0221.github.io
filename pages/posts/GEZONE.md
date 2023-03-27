@@ -8,19 +8,16 @@ tags:
   - 韩文
   - 日文
 categories: 小歌曲
+cover: http://150.158.151.86/albums/GEZONE/GEZONE.jpg
 aplayer: true
 typora-root-url: ..
 ---
 
 因为IZONE而组的一个翻唱组合，看起来好像真的是一个团一样ww 其实只是几个好朋友一起玩翻唱啦！
 
-<div class="primary">
+<!-- more -->
 
 > 鸽团成员：AmeAkane Yuumi 奶茶 律律子 ひかり 柠檬
-
-</div>
-
-<!-- more -->
 
 ## 鸽团翻唱目录
 

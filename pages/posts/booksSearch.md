@@ -160,7 +160,7 @@ Tag：英文
 
 网站：https://kns.cnki.net/kns/brief/result.aspx?dbprefix=CJFQ
 
-<img src="/images/booksSearch/logo.gif" alt="中国知网" style="zoom:150%;" />
+<img src="http://150.158.151.86/images/booksSearch/logo.gif" alt="中国知网" style="zoom:150%;" />
 
 ### 超星数字图书馆
 

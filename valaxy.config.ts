@@ -48,7 +48,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     menu: {
       custom: {
-        title: '幻灯片',
+        title: 'menu.slides',
         url: '/slides/',
         icon: 'i-ri-keynote-line'
       }

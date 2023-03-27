@@ -2,3 +2,24 @@
 intro:
   desc: Valaxy Template
   hi: Hello, Valaxy!
+
+menu:
+  slides: Slides
+  categories: Categories
+  tags: Tags
+  search: Search
+  home: Home
+  archives: Archives
+  links: Friends
+
+social:
+  rss: RSS
+  github: GitHub
+  ncm: Netease Cloud Music
+  weibo: Weibo
+  Notion: Notion
+  zhihu: Zhihu
+  bilibili: Bilibili
+  twitter: Twitter
+  email: E-Mail
+  pixiv: Pixiv
