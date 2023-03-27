@@ -1,6 +1,6 @@
 ---
 title: 气息
-layout: gallery
+# layout: gallery
 photos:
   - caption: 放学后的广场
     src: /albums/lives/放学后的广场.jpg

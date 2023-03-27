@@ -1,6 +1,6 @@
 ---
 title: 鸽团卡面合集
-layout: gallery
+# layout: gallery
 photos:
   - caption: ひかり
     src: /albums/GEZONE/公举1.png

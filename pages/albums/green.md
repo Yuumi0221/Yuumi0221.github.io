@@ -1,6 +1,6 @@
 ---
 title: 绿色
-layout: gallery
+# layout: gallery
 photos:
   - caption: 金鱼草
     src: /albums/green/金鱼草.JPG

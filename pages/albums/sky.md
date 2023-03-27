@@ -1,6 +1,6 @@
 ---
 title: 天空
-layout: gallery
+# layout: gallery
 photos:
   - caption: 去往天国的电梯
     src: /albums/sky/去往天国的电梯.jpg

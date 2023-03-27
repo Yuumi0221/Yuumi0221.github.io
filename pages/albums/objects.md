@@ -1,6 +1,6 @@
 ---
 title: 物
-layout: gallery
+# layout: gallery
 photos:
   - caption: 藏在园中的亭
     src: /albums/objects/藏在园中的亭.jpg

@@ -1,6 +1,6 @@
 ---
 title: 水
-layout: gallery
+# layout: gallery
 photos:
   - caption: 混沌
     src: /albums/water/混沌.jpg

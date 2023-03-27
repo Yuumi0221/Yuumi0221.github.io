@@ -1,6 +1,6 @@
 ---
 title: 抽象
-layout: gallery
+# layout: gallery
 photos:
   - caption: 光
     src: /albums/abstract/光.jpg

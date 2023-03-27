@@ -1,6 +1,6 @@
 ---
 title: 动物
-layout: gallery
+# layout: gallery
 photos:
   - caption: 皆若空游无所依
     src: /albums/animals/皆若空游无所依.jpg
