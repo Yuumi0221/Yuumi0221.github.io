@@ -39,7 +39,7 @@ NexT的简约风真的很好看，很喜欢！但是转眼我就看到一条评�
 
 网站在此，点击这个Yuumi直达！（笑死，就是本站)
 
-<center><a href="https://yuumi0221.github.io/ "><img src="http://150.158.151.86/images/pageBuilding/yuumi.png" alt="yuumi" style="transform:scale(0.67);"/></a></center>
+<div style="text-align: center"><a href="https://yuumi0221.github.io/ "><img src="http://150.158.151.86/images/pageBuilding/yuumi.png" alt="yuumi" style="transform:scale(0.67);"/></a></div>
 
 看到了好多大佬的杰作和开发过程，真的大受鼓舞（？）我在想能不能添加一个`简洁模式`按键，来实现同一个博客拥有两个主题，这样该多快乐呀！然而搜了半天好像没有人有过这样的想法，我也就先保留了吧w等以后自己写好了！
 

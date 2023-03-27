@@ -19,7 +19,7 @@ albums:
 
 
 
-<center> 页面整合中，敬请期待</center>
+<div style="text-align: center"> 页面整合中，敬请期待</div>
 
 
 
