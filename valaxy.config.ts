@@ -74,6 +74,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       primary: "#D69B54",
     },
 
+    fireworks: {
+      enable: true,
+      colors: ['#FFE57D', '#FFCD88', '#E6F4AD']
+    },
+
     footer: {
       since: 2021,
       icon: {

@@ -3,20 +3,20 @@ lockfileVersion: 5.4
 specifiers:
   aplayer: ^1.10.1
   markdown: ^0.5.0
-  typescript: ^4.8.4
-  valaxy: 0.14.17
+  typescript: ^5.0.2
+  valaxy: 0.14.20
   valaxy-addon-components: ^0.0.1
-  valaxy-theme-yun: 0.14.17
+  valaxy-theme-yun: 0.14.20
 
 dependencies:
   aplayer: 1.10.1
   markdown: 0.5.0
-  valaxy: 0.14.17_typescript@4.9.5
+  valaxy: 0.14.20_typescript@5.0.2
   valaxy-addon-components: 0.0.1
-  valaxy-theme-yun: 0.14.17_valaxy@0.14.17
+  valaxy-theme-yun: 0.14.20_valaxy@0.14.20
 
 devDependencies:
-  typescript: 4.9.5
+  typescript: 5.0.2
 
 packages:
 
@@ -314,8 +314,8 @@ packages:
       - supports-color
     dev: false
 
-  /@intlify/bundle-utils/5.4.0_vue-i18n@9.2.2:
-    resolution: {integrity: sha512-oJbibbP5djdQYTv0cQC4PYRHPpS5nF/KZ7MWM1/yhdsGzjvCekJHWk25MCQIIOrfQ+aw5tKi2t66KpYEUki/tw==}
+  /@intlify/bundle-utils/5.5.0_vue-i18n@9.2.2:
+    resolution: {integrity: sha512-k5xe8oAoPXiH6unXvyyyCRbq+LtLn1tSi/6r5f6mF+MsX7mcOMtgYbyAQINsjFrf7EDu5Pg4BY00VWSt8bI9XQ==}
     engines: {node: '>= 12'}
     peerDependencies:
       petite-vue-i18n: '*'
@@ -381,8 +381,8 @@ packages:
     engines: {node: '>= 14'}
     dev: false
 
-  /@intlify/unplugin-vue-i18n/0.9.3_vue-i18n@9.2.2:
-    resolution: {integrity: sha512-23DMh2r0qA7UZfaQhF09ZHhifgTyKcbmVsCo+qHvu9q1EU8OF18VlhxMHMksDR5NBDvRXj3Lmu8lT84XDrUlSw==}
+  /@intlify/unplugin-vue-i18n/0.10.0_vue-i18n@9.2.2:
+    resolution: {integrity: sha512-Sf8fe26/d8rBNcg+zBSb7RA1uyhrG9zhIM+CRX6lqcznMDjLRr/1tuVaJ9E6xqJkzjfPgRzNcCqwMt6rpNkL7Q==}
     engines: {node: '>= 14.16'}
     peerDependencies:
       petite-vue-i18n: '*'
@@ -396,7 +396,7 @@ packages:
       vue-i18n-bridge:
         optional: true
     dependencies:
-      '@intlify/bundle-utils': 5.4.0_vue-i18n@9.2.2
+      '@intlify/bundle-utils': 5.5.0_vue-i18n@9.2.2
       '@intlify/shared': 9.3.0-beta.17
       '@rollup/pluginutils': 5.0.2
       '@vue/compiler-sfc': 3.2.47
@@ -529,6 +529,13 @@ packages:
     dependencies:
       '@unhead/schema': 1.1.25
       '@unhead/shared': 1.1.25
+    dev: false
+
+  /@unhead/schema-org-vue/0.5.0:
+    resolution: {integrity: sha512-UEB54jF2+HBoHKqyqdw7oNLqdhDfEX/FSImtPT3oTDTfGBWpc7RGUPe2RG/j4N78Kk3SsfnHxxJO0GKIGPJRwQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      '@unhead/vue': '>=1.1.9'
     dev: false
 
   /@unhead/schema/1.1.25:
@@ -911,6 +918,20 @@ packages:
     resolution: {integrity: sha512-gdU7TKNAUVlXXLbaF+ZCfte8BjRJQWPCa2J55+7/h+yDtzw3vOoGQDRXzI6pyKyo6bXFT5/QoPE4hAknExjRLQ==}
     dev: false
 
+  /@vueuse/schema-org/2.1.2_aw3eexg7qncxvqmgho2eyf5gxi:
+    resolution: {integrity: sha512-ZaVZ6RCeG4nTCbpruDv6GEzKxE3BH/V+x3yOAcSlLzK3CSuqZQjF0EAgV0PrlNVemN+whSSRqBG9wiWp6AOtoQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      '@vueuse/head': '>=1.0.21'
+      vue: '>=3.2.0'
+    dependencies:
+      '@unhead/schema-org-vue': 0.5.0
+      '@vueuse/head': 1.1.23_vue@3.2.47
+      vue: 3.2.47
+    transitivePeerDependencies:
+      - '@unhead/vue'
+    dev: false
+
   /@vueuse/shared/9.13.0_vue@3.2.47:
     resolution: {integrity: sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==}
     dependencies:
@@ -979,6 +1000,10 @@ packages:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /animejs/3.2.1:
+    resolution: {integrity: sha512-sWno3ugFryK5nhiDm/2BKeFCpZv7vzerWUcUPyAZLDhMek3+S/p418ldZJbJXo5ZUOpfm2kP2XRO4NJcULMy9A==}
     dev: false
 
   /ansi-regex/5.0.1:
@@ -2563,7 +2588,7 @@ packages:
     engines: {node: '>=8.6'}
     dev: false
 
-  /pinia/2.0.33_hmuptsblhheur2tugfgucj7gc4:
+  /pinia/2.0.33_p4srtwdgezcoeovfcc2yxzvaue:
     resolution: {integrity: sha512-HOj1yVV2itw6rNIrR2f7+MirGNxhORjrULL8GWgRwXsGSvEqIQ+SE0MYt6cwtpegzCda3i+rVTZM+AM7CG+kRg==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
@@ -2576,7 +2601,7 @@ packages:
         optional: true
     dependencies:
       '@vue/devtools-api': 6.5.0
-      typescript: 4.9.5
+      typescript: 5.0.2
       vue: 3.2.47
       vue-demi: 0.13.11_vue@3.2.47
     dev: false
@@ -2892,9 +2917,9 @@ packages:
       prelude-ls: 1.1.2
     dev: false
 
-  /typescript/4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
     hasBin: true
 
   /uc.micro/1.0.6:
@@ -3024,30 +3049,31 @@ packages:
     resolution: {integrity: sha512-460ObcDPh19j1wZMU+rTDoWpC9EbqfzEr/kfUFdraJRNv/ZSOn0TjP72FmamQ/21fY/Vb+U4/y+dJbUFUodQgA==}
     dev: false
 
-  /valaxy-addon-waline/0.1.0_valaxy@0.14.17:
+  /valaxy-addon-waline/0.1.0_valaxy@0.14.20:
     resolution: {integrity: sha512-+P5ElZqgSWK7TCPu1E6jLNxHTSAP9orDFiJR0O3vYYmMcMxmuV1+VXuaGBfWcMQpt3knPCHbwir6rNqWw3O/Cw==}
     peerDependencies:
       valaxy: latest
     dependencies:
       '@waline/client': 2.14.9
-      valaxy: 0.14.17_typescript@4.9.5
+      valaxy: 0.14.20_typescript@5.0.2
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
 
-  /valaxy-theme-yun/0.14.17_valaxy@0.14.17:
-    resolution: {integrity: sha512-GKacRNBku4zcoDtW/3JsOul9FAmIdfLNFlIRtGiEFGPlqnuAxAf+iIUJwXIxG7tKYmdYYSNJW52R+d35+zadvw==}
+  /valaxy-theme-yun/0.14.20_valaxy@0.14.20:
+    resolution: {integrity: sha512-8B0HJZaoAuufUBPT3c0HFa120GSbQt+Q+epPCieeHCoSPDgl8/YOYi7ZGePk+a7xz/08arG0XhSbVGvmmV80aQ==}
     dependencies:
       '@iconify-json/ant-design': 1.1.5
       '@iconify-json/simple-icons': 1.1.47
-      valaxy-addon-waline: 0.1.0_valaxy@0.14.17
+      animejs: 3.2.1
+      valaxy-addon-waline: 0.1.0_valaxy@0.14.20
     transitivePeerDependencies:
       - '@vue/composition-api'
       - valaxy
     dev: false
 
-  /valaxy/0.14.17_typescript@4.9.5:
-    resolution: {integrity: sha512-aTXZGYfhOF8JwLYnNz7TSEgL7JrRNfBYy2Nf6LMR4/NNVVPNqwATiCnOIpV4id/I2ekr0qXbzEQvq49EE5oGWg==}
+  /valaxy/0.14.20_typescript@5.0.2:
+    resolution: {integrity: sha512-MiqbEyTAKoW6NRclQOMFcIsBBGTufpNU03li6ngvQ4RxOockWjU5dXZt80SWEHQK6vqsiZBb4wFisn7g0ehiJg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3055,12 +3081,13 @@ packages:
       '@ctrl/tinycolor': 3.6.0
       '@iconify-json/carbon': 1.1.16
       '@iconify-json/ri': 1.1.5
-      '@intlify/unplugin-vue-i18n': 0.9.3_vue-i18n@9.2.2
+      '@intlify/unplugin-vue-i18n': 0.10.0_vue-i18n@9.2.2
       '@types/body-scroll-lock': 3.1.0
       '@vitejs/plugin-vue': 4.1.0_vite@4.2.1+vue@3.2.47
       '@vueuse/core': 9.13.0_vue@3.2.47
       '@vueuse/head': 1.1.23_vue@3.2.47
       '@vueuse/integrations': 9.13.0_hzz2dxfa5xczya3cgo7rr32wcu
+      '@vueuse/schema-org': 2.1.2_aw3eexg7qncxvqmgho2eyf5gxi
       body-scroll-lock: 4.0.0-beta.0
       consola: 2.15.3
       critters: 0.0.16
@@ -3089,7 +3116,7 @@ packages:
       nprogress: 0.2.0
       open: 8.4.2
       pascal-case: 3.1.2
-      pinia: 2.0.33_hmuptsblhheur2tugfgucj7gc4
+      pinia: 2.0.33_p4srtwdgezcoeovfcc2yxzvaue
       sass: 1.60.0
       shiki: 0.14.1
       star-markdown-css: 0.4.2
@@ -3110,6 +3137,7 @@ packages:
       - '@nuxt/kit'
       - '@types/markdown-it'
       - '@types/node'
+      - '@unhead/vue'
       - '@unocss/webpack'
       - '@vue/compiler-sfc'
       - '@vue/composition-api'
