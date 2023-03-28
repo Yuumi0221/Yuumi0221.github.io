@@ -8,7 +8,7 @@ export default defineSiteConfig({
   subtitle: '続きを鳴らそう——',
   author: {
     name: 'Yuumi',
-    avatar: "http://150.158.151.86/images/settings/favicon.ico",
+    avatar: "http://150.158.151.86/images/settings/favicon.png",
     status: {
       emoji: '💛',
       message: 'Looking for dawn.',
