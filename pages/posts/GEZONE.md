@@ -43,7 +43,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=843657627&bvid=BV1V54y1s7Jh&cid=282095892&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=843657627&bvid=BV1V54y1s7Jh&cid=282095892&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -71,7 +71,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=843657627&bvid=BV1V54y1s7Jh&cid=282095892&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=843657627&bvid=BV1V54y1s7Jh&cid=282095892&page=2&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -99,7 +99,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=849038406&bvid=BV1vL4y1q7ZR&cid=440323935&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=849038406&bvid=BV1vL4y1q7ZR&cid=440323935&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -127,7 +127,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=375535391&bvid=BV1uo4y1m7wG&cid=339247723&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=375535391&bvid=BV1uo4y1m7wG&cid=339247723&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -156,7 +156,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=674048255&bvid=BV1JU4y137Kn&cid=365058711&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=674048255&bvid=BV1JU4y137Kn&cid=365058711&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -185,7 +185,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=631776358&bvid=BV1bb4y167XT&cid=374100923&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=631776358&bvid=BV1bb4y167XT&cid=374100923&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -214,7 +214,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=890308718&bvid=BV1mP4y1a7xt&cid=401297633&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=890308718&bvid=BV1mP4y1a7xt&cid=401297633&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -242,7 +242,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=378286508&bvid=BV1rf4y1F77V&cid=417928717&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=378286508&bvid=BV1rf4y1F77V&cid=417928717&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -271,7 +271,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=848990853&bvid=BV1YL4y1q7H1&cid=433815385&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=848990853&bvid=BV1YL4y1q7H1&cid=433815385&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -300,7 +300,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=423780475&bvid=BV163411E7om&cid=502150373&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=423780475&bvid=BV163411E7om&cid=502150373&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -330,7 +330,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=302113607&bvid=BV1PP411j7DQ&cid=803844679&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=302113607&bvid=BV1PP411j7DQ&cid=803844679&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
@@ -352,7 +352,7 @@ typora-root-url: ..
   width:100%;
   height:0;
   padding-bottom:56%;">
-    <iframe src="//player.bilibili.com/player.html?aid=346402481&bvid=BV1TR4y1R7Jr&cid=859210859&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
+    <iframe src="//player.bilibili.com/player.html?aid=346402481&bvid=BV1TR4y1R7Jr&cid=859210859&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;
   width:100%;
   height:100%;
   left:0;
