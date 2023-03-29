@@ -80,7 +80,7 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
-    type: 'fuse'
+    type: 'fuse',
   },
 
   sponsor: {
