@@ -25,7 +25,7 @@ typora-root-url: ..
 
 Tags：全面
 
-![eleps (自定义)](http://150.158.151.86/images/booksSearch/eleps%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
+![eleps (自定义)](https://cdn.yuumi.link/images/booksSearch/eleps%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
 
 - 大部分情况下用它就够啦！
 - 提供DOC / TXT／PDF／MOBI／EPUB／AZW 等多种格式
@@ -37,7 +37,7 @@ Tags：全面
 
 Tags：全面
 
-<img src="http://150.158.151.86/images/booksSearch/logo.png2.1.0" alt="搜书网-WellCMS" style="zoom:80%;" />
+<img src="https://cdn.yuumi.link/images/booksSearch/logo.png2.1.0" alt="搜书网-WellCMS" style="zoom:80%;" />
 
 ### Sobooks
 
@@ -45,7 +45,7 @@ Tags：全面
 
 Tags：文学、人文社科
 
-![image-20210928224351935 (自定义)](http://150.158.151.86/images/booksSearch/image-20210928224351935%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
+![image-20210928224351935 (自定义)](https://cdn.yuumi.link/images/booksSearch/image-20210928224351935%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
 
 ### 三分钟阅读
 
@@ -53,7 +53,7 @@ Tags：文学、人文社科
 
 Tag：杂志
 
-![三分钟阅读](http://150.158.151.86/images/booksSearch/logo@2x.png)_这个图标夜间模式才能看到_
+![三分钟阅读](https://cdn.yuumi.link/images/booksSearch/logo@2x.png)_这个图标夜间模式才能看到_
 
 - 《读者》、《意林》、国学经典
 
@@ -69,7 +69,7 @@ Tags：计算机
 
 
 
-![logo2 (自定义)](http://150.158.151.86/images/booksSearch/logo2%20(%E8%87%AA%E5%AE%9A%E4%B9%89).gif)
+![logo2 (自定义)](https://cdn.yuumi.link/images/booksSearch/logo2%20(%E8%87%AA%E5%AE%9A%E4%B9%89).gif)
 
 - 找计算机专业的书真的牛得不行，宝藏网站
 
@@ -79,7 +79,7 @@ Tags：计算机
 
 Tags：计算机、互联网、专业
 
-![logo (自定义)](http://150.158.151.86/images/booksSearch/logo%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
+![logo (自定义)](https://cdn.yuumi.link/images/booksSearch/logo%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
 
 - 专注于互联网知识领域的电子书平台
 - 电子书榜单功能
@@ -96,7 +96,7 @@ Tags：计算机
 
 Tags：古书
 
-![书格](http://150.158.151.86/images/booksSearch/logo-16328394780005.png)
+![书格](https://cdn.yuumi.link/images/booksSearch/logo-16328394780005.png)
 
 - 一个古色古香的电子古书网站
 - 读者交流区
@@ -117,7 +117,7 @@ Tags：多学科
 
 网址：http://www.zxcs.me/
 
-![logo-163284150366415 (自定义)](http://150.158.151.86/images/booksSearch/logo-163284150366415%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
+![logo-163284150366415 (自定义)](https://cdn.yuumi.link/images/booksSearch/logo-163284150366415%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
 
 
 
@@ -129,7 +129,7 @@ Tags：多学科
 
 Tag：各种语言
 
-![logo.zlibrary (自定义)](http://150.158.151.86/images/booksSearch/logo.zlibrary%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
+![logo.zlibrary (自定义)](https://cdn.yuumi.link/images/booksSearch/logo.zlibrary%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
 
 ### Project Gutenberg
 
@@ -137,7 +137,7 @@ Tag：各种语言
 
 Tag：英文
 
-![pg-logo-129x80 (自定义)](http://150.158.151.86/images/booksSearch/pg-logo-129x80%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
+![pg-logo-129x80 (自定义)](https://cdn.yuumi.link/images/booksSearch/pg-logo-129x80%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
 
 
 
@@ -147,7 +147,7 @@ Tag：英文
 
 网站：http://www.ucdrs.superlib.net/
 
-![img](http://150.158.151.86/images/booksSearch/logo.jpg)
+![img](https://cdn.yuumi.link/images/booksSearch/logo.jpg)
 
 - 用来找资源有无的，**不能下载书！！**
 
@@ -160,7 +160,7 @@ Tag：英文
 
 网站：https://kns.cnki.net/kns/brief/result.aspx?dbprefix=CJFQ
 
-<img src="http://150.158.151.86/images/booksSearch/logo.gif" alt="中国知网" style="zoom:150%;" />
+<img src="https://cdn.yuumi.link/images/booksSearch/logo.gif" alt="中国知网" style="zoom:150%;" />
 
 ### 超星数字图书馆
 
@@ -172,7 +172,7 @@ Tag：英文
 
 网站：https://www.wanfangdata.com.cn/index.html
 
-![anxs-logo_sns (自定义)](http://150.158.151.86/images/booksSearch/anxs-logo_sns%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
+![anxs-logo_sns (自定义)](https://cdn.yuumi.link/images/booksSearch/anxs-logo_sns%20(%E8%87%AA%E5%AE%9A%E4%B9%89).png)
 
 ### Scopus
 
@@ -193,7 +193,7 @@ Tag：英文
 
 - 输入Web of Science搜到的文献的链接，即可下载文献
 
-![SCI-HUB](http://150.158.151.86/images/booksSearch/logo_en1.png)
+![SCI-HUB](https://cdn.yuumi.link/images/booksSearch/logo_en1.png)
 
 
 

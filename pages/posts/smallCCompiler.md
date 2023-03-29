@@ -108,35 +108,35 @@ code
 
 1. **运行程序**：双击打开 `myCompiler.exe` ，看到界面，则运行成功。
 
-  ![image-20221108165444308](http://150.158.151.86/images/smallCCompiler/image-20221108165444308.png)
+  ![image-20221108165444308](https://cdn.yuumi.link/images/smallCCompiler/image-20221108165444308.png)
 
-2. **输入或导入代码**：![image-20221108165755509](http://150.158.151.86/images/smallCCompiler/image-20221108165755509.png)可以选择在左侧上方的框中直接输入代码，或者点击按钮导入准备好的 smallC 语言代码文件。导入之后代码将显示在编辑框中，可以继续编辑。此处导入了求两个整数的最小公倍数代码。
+2. **输入或导入代码**：![image-20221108165755509](https://cdn.yuumi.link/images/smallCCompiler/image-20221108165755509.png)可以选择在左侧上方的框中直接输入代码，或者点击按钮导入准备好的 smallC 语言代码文件。导入之后代码将显示在编辑框中，可以继续编辑。此处导入了求两个整数的最小公倍数代码。
 
-	![image-20221108165950311](http://150.158.151.86/images/smallCCompiler/image-20221108165950311.png)
+	![image-20221108165950311](https://cdn.yuumi.link/images/smallCCompiler/image-20221108165950311.png)
 
 
-3. **另存为代码**：![image-20221108170804968](http://150.158.151.86/images/smallCCompiler/image-20221108170804968.png)点击另存为按钮后，编辑区的代码将被保存到用户选择的路径中。
+3. **另存为代码**：![image-20221108170804968](https://cdn.yuumi.link/images/smallCCompiler/image-20221108170804968.png)点击另存为按钮后，编辑区的代码将被保存到用户选择的路径中。
 
-4. **保存代码**：![image-20221108170420629](http://150.158.151.86/images/smallCCompiler/image-20221108170420629.png)若用户另存为或导入过文件后点击保存按钮，则编辑区的代码都将保存在用户之前选择的文件中。若用户未另存为或导入文件，点击保存按钮后会将编辑框中的代码另存为到用户选择的路径。
+4. **保存代码**：![image-20221108170420629](https://cdn.yuumi.link/images/smallCCompiler/image-20221108170420629.png)若用户另存为或导入过文件后点击保存按钮，则编辑区的代码都将保存在用户之前选择的文件中。若用户未另存为或导入文件，点击保存按钮后会将编辑框中的代码另存为到用户选择的路径。
 
 5. **程序输入**：若编写的代码程序中有 `read id;` ，则需要在 `程序输入框` 中进行输入。若有多个输入，则需要在每个输入间插入空格，或者换行。该代码需要输入两个数字，此处输入了24和36。
 
-	![image-20221108170215257](http://150.158.151.86/images/smallCCompiler/image-20221108170215257.png)
+	![image-20221108170215257](https://cdn.yuumi.link/images/smallCCompiler/image-20221108170215257.png)
 
 
-6. **编译运行**：![image-20221108173224093](http://150.158.151.86/images/smallCCompiler/image-20221108173224093.png)点击编译运行按钮，可以在右侧看到编译运行结果。
+6. **编译运行**：![image-20221108173224093](https://cdn.yuumi.link/images/smallCCompiler/image-20221108173224093.png)点击编译运行按钮，可以在右侧看到编译运行结果。
 
-	![image-20221111165005827](http://150.158.151.86/images/smallCCompiler/image-20221111165005827.png)
+	![image-20221111165005827](https://cdn.yuumi.link/images/smallCCompiler/image-20221111165005827.png)
 
-![image-20221108173428287](http://150.158.151.86/images/smallCCompiler/image-20221108173428287.png)_运行成功_
+![image-20221108173428287](https://cdn.yuumi.link/images/smallCCompiler/image-20221108173428287.png)_运行成功_
 
-![image-20221108173447851](http://150.158.151.86/images/smallCCompiler/image-20221108173447851.png)_程序中有错误，程序输出可能不正确，需要将错误全部修改才能得到正确输出_
+![image-20221108173447851](https://cdn.yuumi.link/images/smallCCompiler/image-20221108173447851.png)_程序中有错误，程序输出可能不正确，需要将错误全部修改才能得到正确输出_
 
-![image-20221108173628384](http://150.158.151.86/images/smallCCompiler/image-20221108173628384.png)_该程序的符号表_
+![image-20221108173628384](https://cdn.yuumi.link/images/smallCCompiler/image-20221108173628384.png)_该程序的符号表_
 
-![image-20221108175130043](http://150.158.151.86/images/smallCCompiler/image-20221108175130043.png)_该程序的机器指令代码_
+![image-20221108175130043](https://cdn.yuumi.link/images/smallCCompiler/image-20221108175130043.png)_该程序的机器指令代码_
 
-![image-20221108175147126](http://150.158.151.86/images/smallCCompiler/image-20221108175147126.png)_该程序的输出结果。此处为24和36的最小公倍数：72_
+![image-20221108175147126](https://cdn.yuumi.link/images/smallCCompiler/image-20221108175147126.png)_该程序的输出结果。此处为24和36的最小公倍数：72_
 
 ### 测试方法
 
@@ -245,7 +245,7 @@ smallC语言在语法上与C语言类似，要比C语言简单的多。它的所
 
 根据 smallC 的 EBNF 文法，附加上自己添加的扩展点，画出以下 smallC 的语法图：
 
-![编译原理图](http://150.158.151.86/images/smallCCompiler/编译原理图.png)
+![编译原理图](https://cdn.yuumi.link/images/smallCCompiler/编译原理图.png)
 
 #### 判断是否符合两条限制规则
 
@@ -370,7 +370,7 @@ smallC语言在语法上与C语言类似，要比C语言简单的多。它的所
 
 编译程序总的框架图如下：
 
-![image-20221229001548760](http://150.158.151.86/images/smallCCompiler/image-20221229001548760.png)
+![image-20221229001548760](https://cdn.yuumi.link/images/smallCCompiler/image-20221229001548760.png)
 
 该编译程序的总体结构由以下几个部分组成：词法分析器、语法分析器、语义分析与中间代码生成器、目标代码生成器、表格管理、出错处理。
 

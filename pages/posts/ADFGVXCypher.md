@@ -9,7 +9,7 @@ tags:
   - 加密算法
 categories: 小作业
 excerpt_type: text
-cover: http://150.158.151.86/images/ADFGVXCypher/image-20221104162849897.png
+cover: https://cdn.yuumi.link/images/ADFGVXCypher/image-20221104162849897.png
 typora-root-url: ..
 ---
 
@@ -112,7 +112,7 @@ CODE
 
 1. **运行程序**：双击打开 `myCypher.exe` ，看到界面，则运行成功。
 
-	![image-20221104161910699](http://150.158.151.86/images/ADFGVXCypher/image-20221104161910699.png)
+	![image-20221104161910699](https://cdn.yuumi.link/images/ADFGVXCypher/image-20221104161910699.png)
 
 2. **明文加密**：在 `input` 框中输入需要加密的明文信息，在 `key` 框中输入置换密码的密钥。点击 `Encrypt` ，在 `output` 框中会出现加密结果。
 
@@ -120,14 +120,14 @@ CODE
 	- 密钥仅可输入英文字母，小写字母将自动转换为大写字母；
 	- 若未输入密钥，则将使用默认密钥 `CARGO` 进行加密。
 
-	![image-20221104162849897](http://150.158.151.86/images/ADFGVXCypher/image-20221104162849897.png)
+	![image-20221104162849897](https://cdn.yuumi.link/images/ADFGVXCypher/image-20221104162849897.png)
 
 3. **密文解密**：在 `input` 框中输入需要解密的密文信息，在 `key` 框中输入置换密码的密钥。点击 `Decrypt` ，在 `output` 框中会出现解密结果。
 
 	- 仅可输入符合ADFGVX密码要求的密文（只包含“ADFGVX”六个大写字母）；
 	- 密钥要求同上。
 
-	![image-20221104163444089](http://150.158.151.86/images/ADFGVXCypher/image-20221104163444089.png)
+	![image-20221104163444089](https://cdn.yuumi.link/images/ADFGVXCypher/image-20221104163444089.png)
 
 4. **更改ADFGVX密码表**：点击 `Change alphabet` ，弹出框中选择密码表文件，即可切换密码表。
 

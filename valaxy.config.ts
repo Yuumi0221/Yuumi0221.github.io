@@ -56,8 +56,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     
     bg_image: {
       enable: true,
-      url: "http://150.158.151.86/images/settings/background.png",
-      dark: "http://150.158.151.86/images/settings/bgdark.jpg",
+      url: "https://cdn.yuumi.link/images/settings/background.png",
+      dark: "https://cdn.yuumi.link/images/settings/bgdark.jpg",
       opacity: 1
     },
 

@@ -34,7 +34,7 @@ typora-root-url: ..
 
 ### 🎵ソラゴト
 
-[<img src="http://150.158.151.86/images/songs/虚言.jpg" alt="虚言" style="height:250px;"/>](https://music.163.com/#/song?id=2028052742)
+[<img src="https://cdn.yuumi.link/images/songs/虚言.jpg" alt="虚言" style="height:250px;"/>](https://music.163.com/#/song?id=2028052742)
 
 - *2023.3.6*
 - Original：明透
@@ -61,7 +61,7 @@ typora-root-url: ..
 
 ### 🎵黙劇
 
-[<img src="http://150.158.151.86/images/songs/默剧.png" alt="默剧" style="height:250px;" align=""/>](https://music.163.com/#/song?id=2028044343)
+[<img src="https://cdn.yuumi.link/images/songs/默剧.png" alt="默剧" style="height:250px;" align=""/>](https://music.163.com/#/song?id=2028044343)
 
 - *2023.2.28*
 - Original：HIMEHINA
@@ -92,7 +92,7 @@ typora-root-url: ..
 
 ### 🎵聖なる日の祈り (先行版)
 
-[<img src="http://150.158.151.86/images/songs/圣祈.jpg" alt="圣祈" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/圣祈.jpg" alt="圣祈" style="height:250px;" align=""/>]()
 
 - *2022.12.25*
 - Original：Aqours
@@ -115,7 +115,7 @@ typora-root-url: ..
 
 ### 🎵カラカラ (半首)
 
-[<img src="http://150.158.151.86/images/songs/karakara.jpg" alt="カラカラ" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/karakara.jpg" alt="カラカラ" style="height:250px;" align=""/>]()
 
 - *2022.11.11*
 - Original：[結束バンド](https://www.youtube.com/watch?v=MTPiaDzacSI)
@@ -137,7 +137,7 @@ typora-root-url: ..
 
 ### 🎵青春コンプレックス (半首)
 
-[<img src="http://150.158.151.86/images/songs/seisyun.jpg" alt="青春コンプレックス" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/seisyun.jpg" alt="青春コンプレックス" style="height:250px;" align=""/>]()
 
 - *2022.11.11*
 - Original：[結束バンド](https://www.youtube.com/watch?v=Yd8kUoB72xU)
@@ -159,7 +159,7 @@ typora-root-url: ..
 
 ### 🎵ギターと孤独と蒼い惑星 (半首)
 
-[<img src="http://150.158.151.86/images/songs/kodoku.jpg" alt="ギターと孤独と蒼い惑星" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/kodoku.jpg" alt="ギターと孤独と蒼い惑星" style="height:250px;" align=""/>]()
 
 - *2022.11.8*
 - Original：[結束バンド](https://www.youtube.com/watch?v=B7BxrAAXl94)
@@ -181,7 +181,7 @@ typora-root-url: ..
 
 ### 🎵パレード (半首)
 
-[<img src="http://150.158.151.86/images/songs/parade.jpg" alt="パレード" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/parade.jpg" alt="パレード" style="height:250px;" align=""/>]()
 
 - *2022.11.5*
 - Original：[ヨルシカ](https://www.youtube.com/watch?v=ry3Tupx4BL4)
@@ -204,7 +204,7 @@ typora-root-url: ..
 
 ### 🎵流れ行く云
 
-[<img src="http://150.158.151.86/images/songs/yun.jpg" alt="流れ行く云" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/yun.jpg" alt="流れ行く云" style="height:250px;" align=""/>]()
 
 - *2022.10.7*
 - 本家：岸部眞明
@@ -225,7 +225,7 @@ typora-root-url: ..
 
 ### 🎵乘风
 
-[<img src="http://150.158.151.86/images/songs/乘风.jpg" alt="乘风" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1974881460)
+[<img src="https://cdn.yuumi.link/images/songs/乘风.jpg" alt="乘风" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1974881460)
 
 - *2022.8.19*
 - 原唱：乘风破浪的姐姐全体
@@ -252,7 +252,7 @@ typora-root-url: ..
 
 ### 🎵光るなら
 
-[<img src="http://150.158.151.86/images/songs/光.jpg" alt="光るなら" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/光.jpg" alt="光るなら" style="height:250px;" align=""/>]()
 
 <div class="danger">
 
@@ -281,7 +281,7 @@ typora-root-url: ..
 
 ### 🎵ロマンスの約束
 
-[<img src="http://150.158.151.86/images/songs/romance.png" alt="ロマンスの約束" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/romance.png" alt="ロマンスの約束" style="height:250px;" align=""/>]()
 
 - *2022.6.4*
 - Original：幾田りら
@@ -305,7 +305,7 @@ typora-root-url: ..
 
 ### 🎵スパークル (半首)
 
-[<img src="http://150.158.151.86/images/songs/sparkle.jpg" alt="スパークル" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/sparkle.jpg" alt="スパークル" style="height:250px;" align=""/>]()
 
 - *2022.6.3*
 - Original：幾田りら
@@ -326,7 +326,7 @@ typora-root-url: ..
 
 ### 🎵レンズ (半首)
 
-[<img src="http://150.158.151.86/images/songs/lens.jpg" alt="レンズ" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/lens.jpg" alt="レンズ" style="height:250px;" align=""/>]()
 
 - *2022.6.2*
 - Original：幾田りら
@@ -347,7 +347,7 @@ typora-root-url: ..
 
 ### 🎵バナナが食べれないサル
 
-[<img src="http://150.158.151.86/images/songs/香蕉.jpg" alt="バナナが食べれないサル" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1952489949)
+[<img src="https://cdn.yuumi.link/images/songs/香蕉.jpg" alt="バナナが食べれないサル" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1952489949)
 
 - *2022.5.31*
 - Original：OH MY GIRL BANHANA
@@ -376,7 +376,7 @@ typora-root-url: ..
 
 ### 🎵Dancing stars on me!
 
-[<img src="http://150.158.151.86/images/songs/dsom.jpg" alt="dsom" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/dsom.jpg" alt="dsom" style="height:250px;" align=""/>]()
 
 - *2021.10.31*
 - Original：μ's
@@ -408,7 +408,7 @@ typora-root-url: ..
 
 ### 🎵祝福のメシアとアイの塔
 
-[<img src="http://150.158.151.86/images/songs/爱之塔.jpg" alt="祝福のメシアとアイの塔" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1880246715)
+[<img src="https://cdn.yuumi.link/images/songs/爱之塔.jpg" alt="祝福のメシアとアイの塔" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1880246715)
 
 <div class="danger">
 
@@ -464,7 +464,7 @@ typora-root-url: ..
 
 ### 🎵Blessing
 
-[<img src="http://150.158.151.86/images/songs/BLESSING.jpg" alt="Blessing" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/BLESSING.jpg" alt="Blessing" style="height:250px;" align=""/>]()
 
 - *2021.6.5*
 - 本家：[sm23304692](https://acg.tv/sm23304692)
@@ -490,7 +490,7 @@ typora-root-url: ..
 
 ### 🎵Sing&Smile!!
 
-[<img src="http://150.158.151.86/images/songs/Sing&Smile!!.jpg" alt="Sing&Smile!!" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/Sing&Smile!!.jpg" alt="Sing&Smile!!" style="height:250px;" align=""/>]()
 
 - *2021.5.7*
 - 原唱：QU4RTZ
@@ -517,7 +517,7 @@ typora-root-url: ..
 
 ### 🎵Lesson
 
-[<img src="http://150.158.151.86/images/songs/lesson.jpg" alt="Lesson" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1830550969)
+[<img src="https://cdn.yuumi.link/images/songs/lesson.jpg" alt="Lesson" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1830550969)
 
 - *2021.3.18*
 - Original：IZ*ONE
@@ -543,7 +543,7 @@ typora-root-url: ..
 
 ### 🎵春泥棒
 
-[<img src="http://150.158.151.86/images/songs/春.jpg" alt="春泥棒" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/春.jpg" alt="春泥棒" style="height:250px;" align=""/>]()
 
 - *2021.3.10*
 - Original：[ヨルシカ](https://youtu.be/Sw1Flgub9s8)
@@ -566,7 +566,7 @@ typora-root-url: ..
 
 ### 🎵world.execute (me) ;
 
-[<img src="http://150.158.151.86/images/songs/wem.jpg" alt="world" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1890928832)
+[<img src="https://cdn.yuumi.link/images/songs/wem.jpg" alt="world" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1890928832)
 
 - *2021.3.1*
 - Original：Mili（[BV1ds411e7df](https://www.bilibili.com/video/BV1ds411e7df)）
@@ -593,7 +593,7 @@ typora-root-url: ..
 
 ### 🎵怪物
 
-[<img src="http://150.158.151.86/images/songs/怪物.jpg" alt="怪物" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1822497234)
+[<img src="https://cdn.yuumi.link/images/songs/怪物.jpg" alt="怪物" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1822497234)
 
 - *2021.2.21*
 - Original：[YOASOBI](https://www.bilibili.com/video/BV1bV411B7uK)
@@ -622,7 +622,7 @@ typora-root-url: ..
 
 ### 🎵ヒッチコック
 
-[<img src="http://150.158.151.86/images/songs/hc.jpg" alt="ヒッチコック" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/hc.jpg" alt="ヒッチコック" style="height:250px;" align=""/>]()
 
 - *2020.12.6*
 - Original：[ヨルシカ](https://youtu.be/t7MBzMP4OzY)
@@ -644,7 +644,7 @@ typora-root-url: ..
 
 ### 🎵リテラチュア
 
-[<img src="http://150.158.151.86/images/songs/魔女.jpg" alt="リテラチュア" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1499027682)
+[<img src="https://cdn.yuumi.link/images/songs/魔女.jpg" alt="リテラチュア" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1499027682)
 
 - *2020.11.29*
 - 原唱：上田麗奈
@@ -681,7 +681,7 @@ TV size：
 
 ### 🎵再会
 
-[<img src="http://150.158.151.86/images/songs/再会.png" alt="再会" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/再会.png" alt="再会" style="height:250px;" align=""/>]()
 
 <div class="danger">
 
@@ -715,7 +715,7 @@ TV size：
 
 ### 🎵You are a ghost, I am a ghost 〜劇場のゴースト〜
 
-[<img src="http://150.158.151.86/images/songs/鬼.png" alt="ghost" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/鬼.png" alt="ghost" style="height:250px;" align=""/>]()
 
 <div class="danger">
 
@@ -747,7 +747,7 @@ TV size：
 
 ### 🎵東京サマーセッション
 
-[<img src="http://150.158.151.86/images/songs/虐狗大会6人曲绘.jpg" alt="東京サマーセッション" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/虐狗大会6人曲绘.jpg" alt="東京サマーセッション" style="height:250px;" align=""/>]()
 
 <div class="danger">
 
@@ -784,7 +784,7 @@ TV size：
 
 ### 🎵夏のまぼろし
 
-[<img src="http://150.158.151.86/images/songs/夏.jpg" alt="夏のまぼろし" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1459987391)
+[<img src="https://cdn.yuumi.link/images/songs/夏.jpg" alt="夏のまぼろし" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1459987391)
 
 - *2020.7.3*
 - Original：[H△G](https://youtu.be/u9jyGUBgTf0) （官方中字：[BV1mE411V72X](https://www.bilibili.com/video/BV1mE411V72X)）
@@ -812,7 +812,7 @@ TV size：
 
 ### 🎵不可思議のカルテ
 
-[<img src="http://150.158.151.86/images/songs/karute.jpg" alt="不可思議のカルテ" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1449567038)
+[<img src="https://cdn.yuumi.link/images/songs/karute.jpg" alt="不可思議のカルテ" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1449567038)
 
 - *2020.5.8*
 - Vocal： 
@@ -850,7 +850,7 @@ TV size：
 
 ### 🎵Tiny Light (TV size)
 
-[<img src="http://150.158.151.86/images/songs/tl.jpg" alt="TinyLight" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1425137033)
+[<img src="https://cdn.yuumi.link/images/songs/tl.jpg" alt="TinyLight" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1425137033)
 
 - *2020.2.21*
 - 歌：[八尋寧々(Cv.鬼頭明里)](https://www.youtube.com/watch?v=7wOD-9jwbJQ&list=TLGGrP8XFxvpPmUzMDAxMjAyMA)
@@ -878,7 +878,7 @@ TV size：
 
 ### 🎵ワタシノテンシ
 
-[<img src="http://150.158.151.86/images/songs/天使.png" alt="天使" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1418443669)
+[<img src="https://cdn.yuumi.link/images/songs/天使.png" alt="天使" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1418443669)
 
 - *2020.1.17*
 - Original：HoneyWorks feat.成海聖奈（CV：雨宮天）
@@ -909,7 +909,7 @@ TV size：
 
 ### 🎵ホーリーフラッグ
 
-[<img src="http://150.158.151.86/images/songs/HF.jpg" alt="ホーリーフラッグ" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1450585202)
+[<img src="https://cdn.yuumi.link/images/songs/HF.jpg" alt="ホーリーフラッグ" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1450585202)
 
 - *2019.10.20*
 - Original：CHiCO with HoneyWorks
@@ -950,7 +950,7 @@ TV size：
 
 ### 🎵八月のif
 
-[<img src="http://150.158.151.86/images/songs/if.png" alt="八月のif" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1488064820)
+[<img src="https://cdn.yuumi.link/images/songs/if.png" alt="八月のif" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1488064820)
 
 - *2019.8.31*
 - Original：户山香澄 & 山吹沙绫（Poppin'Party）
@@ -978,7 +978,7 @@ TV size：
 
 ### 🎵アディショナルメモリー
 
-[<img src="http://150.158.151.86/images/songs/アディショナルメモリー.jpg" alt="アディショナルメモリー" style="height:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/songs/アディショナルメモリー.jpg" alt="アディショナルメモリー" style="height:250px;" align=""/>]()
 
 <div class="danger">
 
@@ -995,7 +995,7 @@ TV size：
 
 ### 🎵桜流星群
 
-[<img src="http://150.158.151.86/images/songs/桜流星群.jpg" alt="桜流星群" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1358529276)
+[<img src="https://cdn.yuumi.link/images/songs/桜流星群.jpg" alt="桜流星群" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1358529276)
 
 - *2019.4.13*
 - Original：[H△G](https://youtu.be/WaTodq2Y3dw)
@@ -1022,7 +1022,7 @@ TV size：
 
 ### 🎵センチメンタルクライシス
 
-[<img src="http://150.158.151.86/images/songs/センチメンタルクライシス.jpg" alt="センチメンタルクライシス" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1356593985)
+[<img src="https://cdn.yuumi.link/images/songs/センチメンタルクライシス.jpg" alt="センチメンタルクライシス" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1356593985)
 
 - *2019.4.5*
 - Original： halca
@@ -1050,7 +1050,7 @@ TV size：
 
 ### 🎵紫陽花の夜
 
-[<img src="http://150.158.151.86/images/songs/紫阳花.png" alt="紫阳花" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1350160636)
+[<img src="https://cdn.yuumi.link/images/songs/紫阳花.png" alt="紫阳花" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1350160636)
 
 - *2019.2.21*
 - Original：ねじ式／火曜日P（[sm23798081](https://www.nicovideo.jp/watch/sm23798081)）
@@ -1079,7 +1079,7 @@ TV size：
 
 ### 🎵Merry-Chri
 
-[<img src="http://150.158.151.86/images/songs/mc.jpg" alt="Merry-Chri" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1335425954)
+[<img src="https://cdn.yuumi.link/images/songs/mc.jpg" alt="Merry-Chri" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1335425954)
 
 - *2018.12.25*
 - Original：BoA
@@ -1108,7 +1108,7 @@ TV size：
 
 ### 🎵水星
 
-[<img src="http://150.158.151.86/images/songs/水星2.png" alt="水星" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1318582879)
+[<img src="https://cdn.yuumi.link/images/songs/水星2.png" alt="水星" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1318582879)
 
 - *2018.10.18*
 - Original：TOFUBEATS & オノマトペ大臣
@@ -1137,7 +1137,7 @@ TV size：
 
 ### 🎵Secret Answer
 
-[<img src="http://150.158.151.86/images/songs/sa.jpg" alt="SecretAnswer" style="height:250px;" align=""/>](https://music.163.com/#/song?id=552093469)
+[<img src="https://cdn.yuumi.link/images/songs/sa.jpg" alt="SecretAnswer" style="height:250px;" align=""/>](https://music.163.com/#/song?id=552093469)
 
 - *2018.4.11*
 - Original：あらき un:c  kradness 赤飯  そらる nqrse  まふまふ luz（[sm29385061](https://www.nicovideo.jp/watch/sm29385061)）
@@ -1166,7 +1166,7 @@ TV size：
 
 ### 🎵ロミオとシンデレラ
 
-[<img src="http://150.158.151.86/images/songs/ro.jpg" alt="ロミオとシンデレラ" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1318484995)
+[<img src="https://cdn.yuumi.link/images/songs/ro.jpg" alt="ロミオとシンデレラ" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1318484995)
 
 - *2018.2.21*
 - Original：doriko（[sm6666016](https://www.nicovideo.jp/watch/sm6666016)）
@@ -1197,7 +1197,7 @@ TV size：
 
 ### 🎵Alienate
 
-[<img src="http://150.158.151.86/images/songs/a1.jpg" alt="Alienate" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1318310879)
+[<img src="https://cdn.yuumi.link/images/songs/a1.jpg" alt="Alienate" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1318310879)
 
 - *2017.11.19*
 - Original：forute（[sm30513290](https://www.nicovideo.jp/watch/sm30513290)/[av8254846](https://www.bilibili.com/video/av8254846/)） 

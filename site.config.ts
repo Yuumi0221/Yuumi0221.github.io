@@ -2,13 +2,13 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://yuumi.link',
-  favicon: "http://150.158.151.86/images/settings/yuumi.svg",
+  favicon: "https://cdn.yuumi.link/images/settings/yuumi.svg",
   lang: 'zh-CN',
   title: "-Yuumi's Blog-",
   subtitle: '続きを鳴らそう——',
   author: {
     name: 'Yuumi',
-    avatar: "http://150.158.151.86/images/settings/favicon.png",
+    avatar: "https://cdn.yuumi.link/images/settings/favicon.png",
     status: {
       emoji: '💛',
       message: 'Looking for dawn.',
@@ -89,19 +89,19 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'http://150.158.151.86/images/donate/alipay.jpg',
+        url: 'https://cdn.yuumi.link/images/settiings/alipay.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: '微信支付',
-        url: 'http://150.158.151.86/images/donate/wechatpay.png',
+        url: 'https://cdn.yuumi.link/images/settiings/wechatpay.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
       {
         name: 'QQ 支付',
-        url: 'http://150.158.151.86/images/donate/qqpay.png',
+        url: 'https://cdn.yuumi.link/images/settiings/qqpay.png',
         color: '#12B7F5',
         icon: 'i-ri-qq-line',
       },

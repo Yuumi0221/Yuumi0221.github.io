@@ -30,7 +30,7 @@ typora-root-url: ..
 
 <iframe id="time"
     title="时间"
-    src="http://150.158.151.86/html/time/university.html"
+    src="https://cdn.yuumi.link/html/time/university.html"
     height="1000px" 
 	width="100%" 
 	scrolling="auto" 
@@ -45,7 +45,7 @@ typora-root-url: ..
 
 <iframe id="time"
     title="时间"
-    src="http://150.158.151.86/html/time/time.html"
+    src="https://cdn.yuumi.link/html/time/time.html"
     height="1000px" 
 	width="100%" 
 	scrolling="auto" 

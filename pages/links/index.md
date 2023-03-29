@@ -19,7 +19,7 @@ links: /links.json
 ```json
 {
     "url": "https://yuumi.link",
-    "avatar": "http://150.158.151.86/images/settings/favicon.png",
+    "avatar": "https://cdn.yuumi.link/images/settings/favicon.png",
     "name": "Yuumi",
     "blog": "-Yuumi's Blog-",
     "desc": "続きを鳴らそう——",

@@ -8,7 +8,7 @@ tags:
   - 韩文
   - 日文
 categories: 小歌曲
-cover: http://150.158.151.86/albums/GEZONE/GEZONE.jpg
+cover: https://cdn.yuumi.link/albums/GEZONE/GEZONE.jpg
 aplayer: true
 typora-root-url: ..
 ---
@@ -25,7 +25,7 @@ typora-root-url: ..
 
 ### 🎵La Vie en Rose
 
-[<img src="http://150.158.151.86/images/GEZONE/La_Vie_en_Rose.png" alt="La_Vie_en_Rose" style="width:250px"/>](https://music.163.com/#/song?id=1335473324)
+[<img src="https://cdn.yuumi.link/images/GEZONE/La_Vie_en_Rose.png" alt="La_Vie_en_Rose" style="width:250px"/>](https://music.163.com/#/song?id=1335473324)
 
 - *2018.12.23*
 - Original：[IZ*ONE](https://www.youtube.com/watch?v=E-T1gEeUqwA&list=PLU5NFMWc0k7mYG71DOEMX21AOStDwpOXk)
@@ -53,7 +53,7 @@ typora-root-url: ..
 
 ### 🎵Violeta
 
-[<img src="http://150.158.151.86/images/GEZONE/Violeta.png" alt="Violeta" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1426977284)
+[<img src="https://cdn.yuumi.link/images/GEZONE/Violeta.png" alt="Violeta" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1426977284)
 
 - *2019.8.3*
 - Original：[IZ*ONE](https://www.youtube.com/watch?v=6eEZ7DJMzuk&list=PLU5NFMWc0k7lm1J2unGxqTHZZ_U-5jWFI) 
@@ -81,7 +81,7 @@ typora-root-url: ..
 
 ### 🎵FIESTA
 
-[<img src="http://150.158.151.86/images/GEZONE/FIESTA.png" alt="FIESTA" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1441660831)
+[<img src="https://cdn.yuumi.link/images/GEZONE/FIESTA.png" alt="FIESTA" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1441660831)
 
 - *2020.4.19*
 - Original：[IZ*ONE](https://www.youtube.com/watch?v=eDEFolvLn0A&list=PLU5NFMWc0k7neT2m6HheW1GDa7f0mUY-O)
@@ -109,7 +109,7 @@ typora-root-url: ..
 
 ### 🎵Merry-Go-Round (Japanese Ver.)
 
-[<img src="http://150.158.151.86/images/GEZONE/Merry-Go-Round.png" alt="Merry-Go-Round" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1848388714)
+[<img src="https://cdn.yuumi.link/images/GEZONE/Merry-Go-Round.png" alt="Merry-Go-Round" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1848388714)
 
 - *2021.5.16*
 - Original：[IZ*ONE](https://www.youtube.com/watch?v=MzGCoEfsYxg&list=OLAK5uy_maOz6eEVL1KVxjj5e5Iab8fisyaCVYSLs&index=8)
@@ -137,7 +137,7 @@ typora-root-url: ..
 
 ### 🎵Panorama
 
-[<img src="http://150.158.151.86/images/GEZONE/Panorama.png" alt="Panorama" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1858990391)
+[<img src="https://cdn.yuumi.link/images/GEZONE/Panorama.png" alt="Panorama" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1858990391)
 
 - *2021.7.1*
 - Original：[IZ*ONE](https://www.youtube.com/watch?v=G8GaQdW2wHc&list=PLU5NFMWc0k7niv85CWD9aOw6rgE9RsX2R)
@@ -166,7 +166,7 @@ typora-root-url: ..
 
 ### 🎵Secret Story of the Swan
 
-[<img src="http://150.158.151.86/images/GEZONE/Secret_Story_of_the_Swan.png" alt="Secret_Story_of_the_Swan" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1862866719)
+[<img src="https://cdn.yuumi.link/images/GEZONE/Secret_Story_of_the_Swan.png" alt="Secret_Story_of_the_Swan" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1862866719)
 
 - *2021.7.21*
 - Original：[IZ*ONE](https://www.youtube.com/watch?v=nnVjsos40qk&list=PLU5NFMWc0k7n2O5CZ3xw7jraVYugDqnoP)
@@ -195,7 +195,7 @@ typora-root-url: ..
 
 ### 🎵Sequence
 
-[<img src="http://150.158.151.86/images/GEZONE/Sequence.png" alt="Sequence" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1875180510)
+[<img src="https://cdn.yuumi.link/images/GEZONE/Sequence.png" alt="Sequence" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1875180510)
 
 - *2021.8.7*
 - Original：[IZ*ONE](https://www.youtube.com/watch?v=eW-61oOanMw&list=PLU5NFMWc0k7niv85CWD9aOw6rgE9RsX2R&index=7)
@@ -224,7 +224,7 @@ typora-root-url: ..
 
 ### 🎵Hey. Bae. Like It
 
-[<img src="http://150.158.151.86/images/GEZONE/Hey._Bae._Like_It.png" alt="Hey._Bae._Like_It" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1886536249)
+[<img src="https://cdn.yuumi.link/images/GEZONE/Hey._Bae._Like_It.png" alt="Hey._Bae._Like_It" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1886536249)
 
 - *2021.8.31*
 - Original：[IZ*ONE](https://www.youtube.com/watch?v=prNNjpvGjCY)
@@ -252,7 +252,7 @@ typora-root-url: ..
 
 ### 🎵Queendom (IZ\*ONE flip)
 
-[<img src="http://150.158.151.86/images/GEZONE/Queendom.png" alt="Queendom" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1891144891)
+[<img src="https://cdn.yuumi.link/images/GEZONE/Queendom.png" alt="Queendom" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1891144891)
 
 - *2021.10.11*
 - Original：[Red Velvet](https://www.youtube.com/watch?v=c9RzZpV460k)
@@ -281,7 +281,7 @@ typora-root-url: ..
 
 ### 🎵AYAYAYA
 
-[<img src="http://150.158.151.86/images/GEZONE/AYAYAYA.png" alt="AYAYAYA" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1939771143)
+[<img src="https://cdn.yuumi.link/images/GEZONE/AYAYAYA.png" alt="AYAYAYA" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1939771143)
 
 - *2022.1.29*
 - Original：[IZ*ONE](https://www.youtube.com/watch?v=-whFS-HwiHc&list=OLAK5uy_ktKLOeo5nABPmdxrQadWCkRHHUhqlEkrk&index=4)
@@ -310,7 +310,7 @@ typora-root-url: ..
 
 ### 🎵ツバメ
 
-[<img src="http://150.158.151.86/images/GEZONE/ツバメ.png" alt="ツバメ" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1972056338)
+[<img src="https://cdn.yuumi.link/images/GEZONE/ツバメ.png" alt="ツバメ" style="width:250px;" align=""/>](https://music.163.com/#/song?id=1972056338)
 
 - *2022.6.25*
 - Original：[YOASOBI-ツバメ (feat. ミドリーズ)](https://www.youtube.com/watch?v=qDL3zhB8-MM)
@@ -340,7 +340,7 @@ typora-root-url: ..
 
 ### 🎵第五季节(SSFWL)
 
-[<img src="http://150.158.151.86/images/GEZONE/SSFWL.jpg" alt="SSFWL" style="width:250px;" align=""/>]()
+[<img src="https://cdn.yuumi.link/images/GEZONE/SSFWL.jpg" alt="SSFWL" style="width:250px;" align=""/>]()
 
 - *2022.10.12*
 - Original：[OH MY GIRL](https://www.youtube.com/watch?v=udGwca1HBM4)

@@ -25,13 +25,13 @@ typora-root-url: ..
 
 先用github的服务器、Hexo框架搭建了一个空白啥也没有的主页，再改成NexT的主题，一下子看起来就不一样了！
 
-<img src="http://150.158.151.86/images/pageBuilding/next.png" alt="next" style="zoom:130%;" />_执行hexo指令时跳出的超酷NexT主题Logo_
+<img src="https://cdn.yuumi.link/images/pageBuilding/next.png" alt="next" style="zoom:130%;" />_执行hexo指令时跳出的超酷NexT主题Logo_
 
-<img src="http://150.158.151.86/images/pageBuilding/next1.png" alt="next1" style="zoom: 67%;" />_测试用的第一个page_
+<img src="https://cdn.yuumi.link/images/pageBuilding/next1.png" alt="next1" style="zoom: 67%;" />_测试用的第一个page_
 
 NexT的简约风真的很好看，很喜欢！但是转眼我就看到一条评论——
 
-![next2](http://150.158.151.86/images/pageBuilding/next2.png)
+![next2](https://cdn.yuumi.link/images/pageBuilding/next2.png)
 
 呃——
 
@@ -39,7 +39,7 @@ NexT的简约风真的很好看，很喜欢！但是转眼我就看到一条评�
 
 网站在此，点击这个Yuumi直达！（笑死，就是本站)
 
-<div style="text-align: center"><a href="https://yuumi0221.github.io/ "><img src="http://150.158.151.86/images/pageBuilding/yuumi.png" alt="yuumi" style="transform:scale(0.67);"/></a></div>
+<div style="text-align: center"><a href="https://yuumi0221.github.io/ "><img src="https://cdn.yuumi.link/images/pageBuilding/yuumi.png" alt="yuumi" style="transform:scale(0.67);"/></a></div>
 
 看到了好多大佬的杰作和开发过程，真的大受鼓舞（？）我在想能不能添加一个`简洁模式`按键，来实现同一个博客拥有两个主题，这样该多快乐呀！然而搜了半天好像没有人有过这样的想法，我也就先保留了吧w等以后自己写好了！
 
@@ -126,9 +126,9 @@ NexT的简约风真的很好看，很喜欢！但是转眼我就看到一条评�
 - 免费CDN：jsDelivr+Github 的使用方法：
 
   比如我要的资源在github里路径为：
-  https://github.com/Yuumi0221/Yuumi0221.github.io/blob/masterhttp://150.158.151.86/images/settings/favicon.png
+  https://github.com/Yuumi0221/Yuumi0221.github.io/blob/masterhttps://cdn.yuumi.link/images/settings/favicon.png
 
-  则对应CDN为：https://cdn.jsdelivr.net/gh/Yuumi0221/Yuumi0221.github.iohttp://150.158.151.86/images/settings/favicon.png
+  则对应CDN为：https://cdn.jsdelivr.net/gh/Yuumi0221/Yuumi0221.github.iohttps://cdn.yuumi.link/images/settings/favicon.png
 
   再加入配置的url里就好啦！
 
@@ -136,9 +136,9 @@ NexT的简约风真的很好看，很喜欢！但是转眼我就看到一条评�
 
   不知道为什么waline没有办法适配夜间模式，很难受呜呜，于是我去[discussions](https://github.com/YunYouJun/hexo-theme-yun/discussions/172)请教了一下大佬。没想到。。刚写完这些话，大佬就给我回复了：
 
-<img src="http://150.158.151.86/images/pageBuilding/question.png" alt="question"/>
+<img src="https://cdn.yuumi.link/images/pageBuilding/question.png" alt="question"/>
 
-<img src="http://150.158.151.86/images/pageBuilding/reply.png" alt="reply"/>
+<img src="https://cdn.yuumi.link/images/pageBuilding/reply.png" alt="reply"/>
 
 原来，大佬早就考虑周到更新完了啊！！于是我紧跟大佬脚步，赶紧把东西给更新了！但是随之而来的问题是，之前我有修改过大佬的配置代码，虽然也就是一些颜色参数，但还是需要一个个重新修改，着实有点麻烦😵‍💫为了防止自己忘记，把修改内容都记录在了notion里。有机会的话也学着做一个代码合并功能吧！
 

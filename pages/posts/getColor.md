@@ -50,7 +50,7 @@ categories: 小作业
 
 <iframe id="graph1"
 	title="graph1"
-	src="http://150.158.151.86/html/getColor/getColor.html" 
+	src="https://cdn.yuumi.link/html/getColor/getColor.html" 
 	height="1000px" 
 	width="100%" 
 	scrolling="auto" 
