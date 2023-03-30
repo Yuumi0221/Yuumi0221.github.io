@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://yuumi.link',
+  url: 'https://www.yuumi.link',
   favicon: "https://cdn.yuumi.link/images/settings/yuumi.svg",
   lang: 'zh-CN',
   title: "-Yuumi's Blog-",
