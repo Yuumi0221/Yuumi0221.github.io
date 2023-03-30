@@ -2,6 +2,7 @@
 title: 关于我
 icon: i-ri-heart-line
 date: 2021-09-26 00:59:47
+cover: https://cdn.yuumi.link/images/settings/yuumi.png
 ---
 
 > 
