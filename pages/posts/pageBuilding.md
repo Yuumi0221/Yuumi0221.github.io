@@ -2,9 +2,8 @@
 title: 从零开始的建博客生活
 date: 2021-09-29 13:03:51
 tags: 
-  - 日记
   - Hexo
-  - HTML
+  - Blog
 categories: 小日记
 cover: https://yun.yunyoujun.cn/logo.gif
 typora-root-url: ..
@@ -13,6 +12,10 @@ typora-root-url: ..
 心血来潮地肝出了自己的博客主页！（是废话连篇的日记，慎看！！）
 
 <!-- more -->
+
+:::warning 2023.3.30 关于博客的更新！
+[超可爱！使用 Valaxy 搭建自己的博客](https://www.yuumi.link/posts/valaxy)
+:::
 
 没想到就连我这样的前端小白，也可以跟着使用说明一步步完成我的博客主页。我要在最最开头就点名点赞[云游君](https://www.yunyoujun.cn/)大佬的[yun主题](https://yun.yunyoujun.cn/)！！使用指南非常详细，顺便因此收藏了许多资源网站，非常快乐www
 
