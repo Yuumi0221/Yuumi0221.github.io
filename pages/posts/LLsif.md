@@ -65,7 +65,7 @@ SIF我从初中玩到高中，后来有了电脑之后就几乎不玩了。为�
 
 > 如果奇迹有颜色，那么一定是橙色的！
 
-![image-20230331184005840](../../../cdn/images/LLsif/snowhalation.png)
+![image-20230331184005840](https://cdn.yuumi.link/images/LLsif/snowhalation.png)
 
 我的入坑很晚，没能看到 μ's 和动画的诞生，但是等来了 μ's 动画的剧场版。剧场版的剧情几乎是在暗示 μ's 的故事到此为止，大家也都在想是不是再也不会出动画了，但谁也没想到接着 μ's 就宣布将进行最后的 Final Live。
 
