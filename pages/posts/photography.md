@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 摄影与生活
-date: 2022-11-01 15:11:43
+date: 2022-11-01
+updated: 2022-11-01
 tags:
   - 摄影
   - 作业

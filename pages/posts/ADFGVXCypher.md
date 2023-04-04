@@ -2,6 +2,7 @@
 layout: post
 title: ADFGVX加密算法
 date: 2022-11-15
+updated: 2022-11-15
 tags:
   - C++
   - QT

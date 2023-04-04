@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 将EChart图表嵌入Hexo博客中
-date: 2021-10-08 19:43:39
+date: 2021-10-08
+updated: 2023-03-29
 tags: 
    - ECharts
    - HTML

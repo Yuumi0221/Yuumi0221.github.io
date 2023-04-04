@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 超可爱！使用 Valaxy 搭建自己的博客
-date: 2023-03-29 15:41:22
+date: 2023-03-29
+updated: 2023-04-04
 tags: 
   - Blog
   - Valaxy

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 爷青结——μ's与我的青春
-date: 2023-03-31 11:56:44
+date: 2023-03-31
+updated: 2023-03-31
 tags: 
   - ACG
   - 音乐游戏

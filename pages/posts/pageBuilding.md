@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 从零开始的建博客生活
-date: 2021-09-29 13:03:51
+date: 2021-09-29
+updated: 2023-03-30
 tags: 
   - Hexo
   - Blog

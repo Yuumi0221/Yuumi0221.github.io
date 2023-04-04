@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 图片像素颜色的可视化
-date: 2021-10-12 23:25:55
+date: 2021-10-12
+updated: 2021-10-12
 tags: 
   - 作业
   - JavaScript

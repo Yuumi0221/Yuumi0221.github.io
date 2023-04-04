@@ -1,7 +1,8 @@
 ---
 layout: post
 title: smallCCompiler
-date: 2023-01-16 21:46:05
+date: 2023-01-17
+updated: 2023-01-17
 tags:  
   - C
   - QT
