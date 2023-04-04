@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 从零开始的建博客生活
 date: 2021-09-29 13:03:51
 tags: 
@@ -6,7 +7,6 @@ tags:
   - Blog
 categories: 小日记
 cover: https://yun.yunyoujun.cn/logo.gif
-typora-root-url: ..
 ---
 
 心血来潮地肝出了自己的博客主页！（是废话连篇的日记，慎看！！）

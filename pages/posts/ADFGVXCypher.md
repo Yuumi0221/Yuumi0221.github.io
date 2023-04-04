@@ -1,16 +1,14 @@
 ---
+layout: post
 title: ADFGVX加密算法
 date: 2022-11-15
-updated: 2022-11-15
 tags:
   - C++
   - QT
   - 作业
   - 加密算法
 categories: 小作业
-excerpt_type: text
 cover: https://cdn.yuumi.link/images/ADFGVXCypher/image-20221104162849897.png
-typora-root-url: ..
 ---
 
 课堂小作业，实现古老的ADFGVX加密算法

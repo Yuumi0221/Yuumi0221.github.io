@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 大数据可视化小实践
 date: 2021-12-17 14:27:48
 tags: 
@@ -8,7 +9,6 @@ tags:
   - ECharts
   - python
 categories: 小作业
-
 ---
 
  又是课堂小作业！这回的作业要求竟然只有一个主题？！没办法了，只好乱做一通了！

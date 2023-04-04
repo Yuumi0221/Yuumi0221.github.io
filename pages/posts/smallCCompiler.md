@@ -1,4 +1,5 @@
 ---
+layout: post
 title: smallCCompiler
 date: 2023-01-16 21:46:05
 tags:  
@@ -10,7 +11,6 @@ tags:
   - 作业
 categories: 小作业
 cover: https://cdn.yuumi.link/images/smallCCompiler/image-20221111165005827.png
-typora-root-url: ..
 ---
 
 一个 SmallC 语言的编译器

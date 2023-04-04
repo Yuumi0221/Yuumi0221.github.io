@@ -360,7 +360,7 @@ typora-root-url: ..
 
 
 
-## [鸽团卡面传送门](https://yuumi.link/albums/GEZONE.html)
+## [鸽团卡面传送门](https://www.yuumi.link/albums/GEZONE)
 
 ↑↑↑鸽团美图全部出自奶茶之手↑↑↑
 

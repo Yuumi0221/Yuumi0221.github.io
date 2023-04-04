@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 将EChart图表嵌入Hexo博客中
 date: 2021-10-08 19:43:39
 tags: 

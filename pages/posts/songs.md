@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Yuumi的翻唱合集
 date: 2022-08-31 10:53:43
 top: 10
@@ -9,7 +10,6 @@ tags:
   - 日文
 categories: 小歌曲
 aplayer: true
-typora-root-url: ..
 ---
 
 ★ **Bilibili：[Yu-u-mi](https://space.bilibili.com/7498906)**

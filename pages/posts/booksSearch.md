@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 各种搜书网站整理
 date: 2021-09-28 21:42:15
 tags: 
@@ -6,7 +7,6 @@ tags:
   - 资源
   - 书刊
 categories: [小分享, 书刊]
-typora-root-url: ..
 ---
 
 <div class="primary">

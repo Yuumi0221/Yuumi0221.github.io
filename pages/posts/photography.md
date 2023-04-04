@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 摄影与生活
 date: 2022-11-01 15:11:43
 tags:
@@ -6,7 +7,6 @@ tags:
   - 作业
 categories: 小摄影
 cover: https://cdn.yuumi.link/albums/water/水中黄昏.jpg
-typora-root-url: ..
 ---
 
 记《摄影与生活》课程的两次摄影作业。
