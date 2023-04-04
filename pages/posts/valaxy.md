@@ -155,9 +155,9 @@ pnpm up --latest -i
 
 在 https://icones.js.org/ 可以查找你想要的图标，复制名字即可食用。
 
-以下是主题配置：
+#### 主题配置
 
-#### 左侧边栏
+##### 左侧边栏
 
 与回到主页相对的按钮也可以修改为别的页面。如修改为幻灯片 slides 页面：
 
@@ -183,9 +183,9 @@ pnpm up --latest -i
 	  slides: Slides
 	```
 
-- `/slides/` 指新页面的文件路径，完整路径为"blog-name/pages/slides"，其中需要添加 index.md 文件，可以参考 pages 下其他文件夹进行编辑
+- `/slides/` 指新页面的文件路径，完整路径为"blog-name/pages/slides"，其中需要添加 `index.md` 文件，可以参考 pages 下其他文件夹进行编辑
 
-#### 网站背景图片
+##### 网站背景图片
 
 ```typescript
 	bg_image: {
@@ -195,7 +195,7 @@ pnpm up --latest -i
     },
 ```
 
-#### 首页的中二语句
+##### 首页的中二语句
 
 ```yaml
 	say: {
@@ -210,7 +210,7 @@ pnpm up --latest -i
 
 - [句子类型](https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0)：修改api连接后的 `c=*`
 
-#### 主题色
+##### 主题色
 
 ```yaml
 	colors: {
@@ -218,7 +218,7 @@ pnpm up --latest -i
     },
 ```
 
-#### 鼠标点击特效
+##### 鼠标点击特效
 
 ```yaml
 	fireworks: {
@@ -227,7 +227,7 @@ pnpm up --latest -i
     },
 ```
 
-#### 页脚
+##### 页脚
 
 ```yaml
 	footer: {
@@ -247,9 +247,23 @@ pnpm up --latest -i
     },
 ```
 
-#### 评论区（Waline）
+#### 插件
+
+##### 评论区（Waline）
+
+安装依赖
+
+```shell
+pnpm add valaxy-addon-waline
+```
+
+加载插件
 
 ```yaml
+import { defineValaxyConfig } from 'valaxy'
+import { addonWaline } from "valaxy-addon-waline";
+
+export default defineValaxyConfig({
   themeConfig: {
   // ...
   }
@@ -264,10 +278,93 @@ pnpm up --latest -i
       pageview: true
     }),
   ],
+})
 ```
 
 - Waline 部署和配置：见[官方文档](https://waline.js.org/)
 - 评论迁移：在评论管理页面点击左上角 `管理`->`导入导出`->`导出`。导出文件后将旧链接全部修改成新链接（记得备份，以免出错），再导入管理页面即可
+
+##### 相册
+
+安装依赖
+
+```shell
+pnpm add valaxy-addon-lightgallery
+```
+
+加载插件
+
+```yaml
+import { defineValaxyConfig } from 'valaxy'
+import { addonLightGallery } from 'valaxy-addon-lightgallery'
+
+export default defineValaxyConfig({
+  addons: [
+    addonLightGallery(),
+  ],
+})
+```
+
+编辑相册
+
+- 在主题设置的 `pages` 或 `menu` 中添加相册页面，如：
+
+	```typescript
+		pages: [
+	      {
+	        name: '相册',
+	        url: '/albums/',
+	        icon: 'i-ri-gallery-line',
+	        color: '#43abee',
+	      },
+	    ],
+	```
+
+- pages 文件夹中新建相册文件夹 albums，在其中新建 `index.md` 添加相簿：
+
+	```markdown
+	---
+	layout: albums
+	title: 相册
+	icon: i-ri-gallery-line
+	nav: false		# 关闭页面导航
+	comment: false	# 关闭评论
+	toc: false		# 关闭文章目录
+	aside: false	# 关闭目录边栏
+	albums:			# 相簿
+	  - caption: 天空
+	    url: /albums/sky
+	    cover: https://cdn.yuumi.link/albums/sky/夕阳夜都市.jpg
+	    desc: 心驰神往的地方
+	  - caption: 绿色
+	    url: /albums/green
+	    cover: https://cdn.yuumi.link/albums/green/绿叶丛中蝶.png
+	    desc: 自然怡人
+	---
+	
+	```
+
+- 在 albums 文件夹中新建相簿，如 `sky.md`，在其中添加照片：
+
+	```markdown
+	---
+	title: 天空
+	layout: gallery
+	nav: false
+	toc: false
+	aside: false
+	photos:			# 照片
+	  - caption: 去往天国的电梯
+	    src: https://cdn.yuumi.link/albums/sky/去往天国的电梯.jpg
+	    desc: 在城市里也能抬头看到这样的景象
+	  - caption: 夕阳夜都市
+	    src: https://cdn.yuumi.link/albums/sky/夕阳夜都市.jpg
+	    desc: 
+	---
+	
+	```
+
+
 
 ### site.config.ts
 

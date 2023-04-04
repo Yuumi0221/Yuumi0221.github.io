@@ -1,7 +1,8 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from "valaxy-addon-waline";
-import { addonComponents } from "valaxy-addon-components";
+// import { addonComponents } from "valaxy-addon-components";
+import { addonLightGallery } from 'valaxy-addon-lightgallery';
 
 // add icons what you will need
 const safelist = [
@@ -39,7 +40,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#43abee',
       },
       {
-        name: '我的小伙伴们',
+        name: '友链',
         url: '/links/',
         icon: 'i-ri-open-arm-line',
         color: '#4bbea4',
@@ -99,7 +100,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   addons: [
-    addonComponents(),
+    // addonComponents(),
     addonWaline({
       serverURL: "https://comment.yuumi.link",
       locale: {
@@ -115,6 +116,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       ],
       // recaptchaV3Key: "",
     }),
+    addonLightGallery(),
   ],
   
   features: {
