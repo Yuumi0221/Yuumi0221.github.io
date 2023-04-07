@@ -118,7 +118,6 @@ NexT的简约风真的很好看，很喜欢！但是转眼我就看到一条评�
 
   :::
   
-  
 - [algolia搜索](https://www.algolia.com/)
 
   可是在火狐浏览器上访问会有不显示背景模糊的bug！！应该是火狐不支持哪个css的属性的原因，就暂时搁置一下吧。
@@ -217,7 +216,7 @@ $colors ?= {
 
 哈哈，爬吧，爷去用outlook了，撒由那拉
 
-![血压.jpg](https://cdn.yuumi.link/images/pageBuilding/血压.jpg)
+![血压.jpg](https://cdn.yuumi.link/images/emotes/血压.jpg)
 
 于是我开始了outlook邮箱换绑之旅——把做网页相关的所有注册邮箱全部换掉，其他的之后再说。。。以及还没有设置的内容：
 
