@@ -216,7 +216,7 @@ $colors ?= {
 
 哈哈，爬吧，爷去用outlook了，撒由那拉
 
-![血压.jpg](https://cdn.yuumi.link/images/emotes/血压.jpg)
+![血压.jpg](https://cdn.yuumi.link/emotes/血压.jpg)
 
 于是我开始了outlook邮箱换绑之旅——把做网页相关的所有注册邮箱全部换掉，其他的之后再说。。。以及还没有设置的内容：
 

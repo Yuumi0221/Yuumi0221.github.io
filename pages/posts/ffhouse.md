@@ -48,7 +48,7 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 。。。。。。。。。。。。。。。。。。。。。。。。
 
-![不也挺好](https://cdn.yuumi.link/images/emotes/不也挺好.gif)
+![不也挺好](https://cdn.yuumi.link/emotes/不也挺好.gif)
 
 
 
