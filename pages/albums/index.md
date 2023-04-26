@@ -11,6 +11,10 @@ albums:
     url: /albums/GEZONE
     cover: https://cdn.yuumi.link/albums/GEZONE/GEZONE.jpg
     desc: 奶茶大作：鸽团卡面合集
+  - caption: FF14
+    url: /albums/ff14
+    cover: https://cdn.yuumi.link/albums/ff14/光之战士.png
+    desc: 最终幻想14
   - caption: 天空
     url: /albums/sky
     cover: https://cdn.yuumi.link/albums/sky/夕阳夜都市.jpg
