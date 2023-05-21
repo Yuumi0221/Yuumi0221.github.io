@@ -2,7 +2,7 @@
 layout: post
 title: 狒狒买房记
 date: 2023-04-07
-updated: 2023-04-07
+updated: 2023-05-21
 tags: 
   - ACG
   - FF14
@@ -61,3 +61,13 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 
 ## 五周目——森46（个人房）
+
+感觉抽房子的人越来越少了，这就是版本末期吗？马上新房区要来了希望能中新房子！！
+
+![107](https://cdn.yuumi.link/images/ffhouse/107.png)
+
+## 六周目——森41（部队房）
+
+一开始看房发现30号的森41人少，于是果断roll了，roll完发现居然是部队房。。。。希望下周能有新的森41呜呜呜
+
+![16](https://cdn.yuumi.link/images/ffhouse/16.jpg)
