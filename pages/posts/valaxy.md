@@ -2,7 +2,7 @@
 layout: post
 title: 超可爱！使用 Valaxy 搭建自己的博客
 date: 2023-03-29
-updated: 2023-04-04
+updated: 2023-06-01
 tags: 
   - Blog
   - Valaxy
@@ -398,17 +398,30 @@ export default defineValaxyConfig({
 
 ### 自定义配置
 
-我只做了一点点点点点的自定义，其他的等我想到了再来更新x
-
-#### 边栏样式
+参考了[YH大佬的配置](https://liyhil.com/posts/valaxy-yun%E9%85%8D%E7%BD%AE#%E6%9C%AC%E4%BA%BA%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%B7%E5%BC%8F)更新了一下自定义配置：
 
 ```scss
 // styles/css-vars.scss
 :root {
-  // 边栏背景图片
-  --yun-sidebar-bg-img: url('https://cdn.yuumi.link/images/settings/Yuumi_Icon.png');
-  // 边栏背景颜色
-  --yun-sidebar-bg-color: rgba(255, 255, 255, 0)
+    // 白天模式下文章框的底色
+    --va-c-bg-light: rgba(255, 255, 255, 0.7);
+    // 边栏背景图片
+    --yun-sidebar-bg-img: url('https://cdn.yuumi.link/images/settings/Yuumi_Icon.png');
+    // 边栏背景颜色透明
+    --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
+}
+
+// 夜晚模式下文章框的底色
+html.dark{
+    --va-c-bg-light:rgba(5, 16, 29, 0.7);
+}
+
+// 首页大字两边的背景
+.char-left {
+    border-right:0px solid rgba(255,255,255, 0)
+}
+.char-right {
+    border-left:0px solid rgba(255,255,255, 0)
 }
 ```
 

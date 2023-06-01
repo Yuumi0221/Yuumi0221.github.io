@@ -2,7 +2,7 @@
 layout: post
 title: 狒狒买房记
 date: 2023-04-07
-updated: 2023-05-21
+updated: 2023-06-01
 tags: 
   - ACG
   - FF14
