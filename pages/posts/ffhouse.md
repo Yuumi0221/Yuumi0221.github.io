@@ -71,3 +71,10 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 一开始看房发现30号的森41人少，于是果断roll了，roll完发现居然是部队房。。。。希望下周能有新的森41呜呜呜
 
 ![16](https://cdn.yuumi.link/images/ffhouse/16.jpg)
+
+## 七周目——森16（个人房）
+
+不多说了，都是没roll中新房区的败犬罢了！
+
+![32](https://cdn.yuumi.link/images/ffhouse/32.jpg)
+
