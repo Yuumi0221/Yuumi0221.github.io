@@ -2,7 +2,7 @@
 layout: post
 title: 狒狒买房记
 date: 2023-04-07
-updated: 2023-06-01
+updated: 2023-06-12
 tags: 
   - ACG
   - FF14
@@ -82,4 +82,10 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 哈哈，这辈子还能抽到房吗？这么不抢手的房子都抽不到呜呜呜
 
-![32](https://cdn.yuumi.link/images/ffhouse/7.png)
+![7](https://cdn.yuumi.link/images/ffhouse/7.png)
+
+## 九周目——白13（个人房）
+
+白13这房子非常看楼下s房的脸色，一旦楼下是个天守阁之类的高楼大厦，那白13面前的风景直接会被挡的严严实实完全看不见。然后这家白13楼下竟然用的最最矮的那种外墙！走近一看发现，院子里种满了樱花树，整整11棵！！roll房当天还和楼下房主聊了起来，希望可以抽中！
+
+以及楼上的L房邻居，庭院装修得好好看，进门一看更是惊艳！！这竟然是我好久好久在b站看过的神迹[「FF14」夜半海港-全造景 L房-豪华巨轮+海港商店街+住宅造景](https://www.bilibili.com/video/BV15z4y1k7LY)！！！这下真的是不抽不行了！！！
