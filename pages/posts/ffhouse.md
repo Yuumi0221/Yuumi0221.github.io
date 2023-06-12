@@ -78,3 +78,8 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 ![32](https://cdn.yuumi.link/images/ffhouse/32.jpg)
 
+## 八周目——白58（个人房）
+
+哈哈，这辈子还能抽到房吗？这么不抢手的房子都抽不到呜呜呜
+
+![32](https://cdn.yuumi.link/images/ffhouse/7.png)
