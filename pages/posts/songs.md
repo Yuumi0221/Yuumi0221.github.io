@@ -2,7 +2,7 @@
 layout: post
 title: Yuumi的翻唱合集
 date: 2022-08-31
-updated: 2023-03-06
+updated: 2023-06-27
 top: 10
 tags:
   - 翻唱
@@ -35,6 +35,18 @@ aplayer: true
 - 点击标题进入b站，点击图片进入网易云
 
 ## 2023
+
+### 🎵[Sing 2015](https://www.bilibili.com/video/BV1su411a7VT/)
+
+<img src="https://cdn.yuumi.link/images/songs/sing.jpg" alt="sing" style="height:250px;"/>
+
+- *2023.6.18*
+- Original：Goose House
+- Vocal：Yuumi 小雨 变态 小琦 狐狸 猫毛
+- Mix：果屋OFFICE
+- PV：KiK
+- Illust：狐狸
+
 
 ### 🎵[ソラゴト](https://www.bilibili.com/video/BV1Lv4y1a7gs/)
 
