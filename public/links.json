@@ -62,6 +62,14 @@
         "blog": "白熊的神秘小窝",
         "desc": "=羡子年少正得路,有如扶桑初日升=",
         "color": "#4d73ab"
+    },
+    {
+        "url": "https://www.lateautumn.cn",
+        "avatar": "https://www.lateautumn.cn/image/avator.jpg",
+        "name": "深秋",
+        "blog": "深秋's blog",
+        "desc": "人间忽晚，山河已秋",
+        "color": "skyblue"
     }
   ]
   
