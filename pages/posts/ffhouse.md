@@ -2,7 +2,7 @@
 layout: post
 title: 狒狒买房记
 date: 2023-04-07
-updated: 2023-06-12
+updated: 2023-06-27
 tags: 
   - ACG
   - FF14
@@ -42,7 +42,7 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 ![256](https://cdn.yuumi.link/images/ffhouse/256.png)
 
-然后抽了255
+然后抽中了255
 
 ![255](https://cdn.yuumi.link/images/ffhouse/255.png)
 
@@ -68,19 +68,21 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 ## 六周目——森41（部队房）
 
-一开始看房发现30号的森41人少，于是果断roll了，roll完发现居然是部队房。。。。希望下周能有新的森41呜呜呜
+新房区，启动！！！这次的唯一目标就是森41！！！森41，我一定要拿下你！！！
+
+跑到各个新房区查看森41人数，发现30区的森41人尤其少，于是果断roll了！然后roll完发现居然是部队房。。。。狠狠在roll房最后一天涨了一倍的人，哈哈
 
 ![16](https://cdn.yuumi.link/images/ffhouse/16.jpg)
 
 ## 七周目——森16（个人房）
 
-不多说了，都是没roll中新房区的败犬罢了！
+不多说了，都是没roll中新房区的败犬罢了！（呜呜呜呜呜呜呜呜呜呜）
 
 ![32](https://cdn.yuumi.link/images/ffhouse/32.jpg)
 
 ## 八周目——白58（个人房）
 
-哈哈，这辈子还能抽到房吗？这么不抢手的房子都抽不到呜呜呜
+趁新房区余波还没结束，赶快继续猛猛roll房。这次的目标roll的人真的少的可怜，然而还是抽不到喵
 
 ![7](https://cdn.yuumi.link/images/ffhouse/7.png)
 
@@ -96,6 +98,6 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 ## 十周目——森51（个人房）
 
-隔壁的森57更是抢手，没想到那样风景也不是很好的房子竟然有一百多个人去抢。。
+隔壁的森57更是抢手，没想到那样风景也不是很好的房子竟然有一百多个人去抢。。看来新房区效应已经是彻底结束了，又来到了残酷的长草roll房期——
 
 ![41](https://cdn.yuumi.link/images/ffhouse/41.jpg)
