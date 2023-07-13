@@ -106,7 +106,7 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 搞笑的是，开房前看到龙娘同好会里的几个人在说roll房的事。仔细一看，原来是两个琥珀原的都roll了雪1-18！然而大家都没中，哈哈。
 
-![37](https://cdn.yuumi.link/images/ffhouse/37.jpg)
+![37](https://cdn.yuumi.link/images/ffhouse/37.png)
 
 领完钱去金蝶遇到了福尔米诺，说了roll房的事。这时她cp欧阳也来仙人微彩，然后给我发了悄悄话：“[23:07]获得了17,000,000金币”。他也和我roll了一个房啊草！
 
@@ -114,4 +114,4 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 二战雪18，这回同期的买房人都被海6吸了去了，所以雪18只有十几个人roll，然而还是差一点，，
 
-![4](https://cdn.yuumi.link/images/ffhouse/4.jpg)
+![4](https://cdn.yuumi.link/images/ffhouse/4.png)
