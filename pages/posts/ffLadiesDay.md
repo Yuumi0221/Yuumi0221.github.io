@@ -24,7 +24,7 @@ cover: https://cdn.yuumi.link/images/ffLadiesDay/女儿节.png
 :::
 
 1. [管弦乐琴乐谱：深宵之海（钢琴集）](https://www.bilibili.com/video/BV1X24y1E7j5) 红玉海夜
-2. [管弦乐琴乐谱：红色夜阑（钢琴集）](https://www.bilibili.com/video/BV1BL411r7ou) 黄金港夜笛子版
+2. [管弦乐琴乐谱：红色夜阑（钢琴集）](https://www.bilibili.com/video/BV1BL411r7ou) 黄金港夜箫版
 3. [管弦乐琴乐谱：万世箴言（钢琴集）](https://www.bilibili.com/video/BV1ug411x7D7) 图书馆
 4. 管弦乐琴乐谱：英杰（钢琴集） 圆桌骑士讨伐
 5. [管弦乐琴乐谱：古伤（钢琴集）](https://www.bilibili.com/video/BV1A24y1C7f8) 基拉巴尼亚湖区夜
