@@ -24,19 +24,15 @@ cover: https://cdn.yuumi.link/images/settings/yuumi.png
 
 
 
-### 同步连接
+## 同步回旋加速器
 
-<div style="
-    display: flex;
-    align-items: center;
-    justify-content: center;">
-    <embed src="https://wakatime.com/share/@Yuumi/5eb843a0-ec28-4c44-af0c-4ba8179b66c4.svg"/>
-</div>
+<figure style="display: flex">
+    <embed src="https://wakatime.com/share/@Yuumi/a49b3681-974e-4998-9b41-9e5a5c8ada63.svg" width=50% />
+	<embed src="https://wakatime.com/share/@Yuumi/03d69028-f46a-428b-a168-2696cb23afe7.svg" width=50% />
+</figure>
 
-<p style=" text-align:center">
-    <b>感谢你在茫茫互联的网络中点进了我的主页，并看到了这里。衷心地祝愿你能成为更好的自己💛</b>
-</p>
 
+<div style="text-align: center"><b>感谢你在茫茫互联的网络中点进了我的主页，并看到了这里。衷心地祝愿你能成为更好的自己💛</b></div>
 
 ---
 
