@@ -1,6 +1,6 @@
 {
   "name": "yuumi-blog",
-  "version": "0.14.53",
+  "version": "0.14.54",
   "private": true,
   "scripts": {
     "build": "npm run build:ssg && npm run rss && npm run fuse",
@@ -16,11 +16,11 @@
     "aplayer": "^1.10.1",
     "fuse.js": "^6.6.2",
     "markdown": "^0.5.0",
-    "valaxy": "0.14.53",
+    "valaxy": "0.14.54",
     "valaxy-addon-components": "^0.0.1",
     "valaxy-addon-lightgallery": "^0.0.2",
     "valaxy-addon-waline": "^0.1.0",
-    "valaxy-theme-yun": "0.14.53"
+    "valaxy-theme-yun": "0.14.54"
   },
   "devDependencies": {
     "typescript": "^5.1.6"

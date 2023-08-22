@@ -11,8 +11,8 @@ dependencies:
     specifier: ^0.5.0
     version: 0.5.0
   valaxy:
-    specifier: 0.14.53
-    version: 0.14.53(@types/markdown-it@13.0.0)(@unhead/vue@1.3.5)(postcss@8.4.28)(typescript@5.1.6)
+    specifier: 0.14.54
+    version: 0.14.54(@types/markdown-it@13.0.0)(@unhead/vue@1.3.5)(postcss@8.4.28)(typescript@5.1.6)
   valaxy-addon-components:
     specifier: ^0.0.1
     version: 0.0.1
@@ -21,10 +21,10 @@ dependencies:
     version: 0.0.2
   valaxy-addon-waline:
     specifier: ^0.1.0
-    version: 0.1.0(valaxy@0.14.53)
+    version: 0.1.0(valaxy@0.14.54)
   valaxy-theme-yun:
-    specifier: 0.14.53
-    version: 0.14.53
+    specifier: 0.14.54
+    version: 0.14.54
 
 devDependencies:
   typescript:
@@ -827,8 +827,8 @@ packages:
       - rollup
     dev: false
 
-  /@vitejs/plugin-vue@4.3.2(vite@4.4.9)(vue@3.3.4):
-    resolution: {integrity: sha512-iDDhGruwhKkwNwT5qgtGaeTxF4ULs52xpQbsC27F01kf3aQBHtrDP738pmHw4oclVAUA3m+Vk8gxhDV5KbfM+A==}
+  /@vitejs/plugin-vue@4.3.3(vite@4.4.9)(vue@3.3.4):
+    resolution: {integrity: sha512-ssxyhIAZqB0TrpUg6R0cBpCuMk9jTIlO1GNSKKQD6S8VjnXi6JXKfUXjSsxey9IwQiaRGsO1WnW9Rkl1L6AJVw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
@@ -1334,7 +1334,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
 
   /clean-css@4.2.4:
@@ -1811,8 +1811,8 @@ packages:
       universalify: 2.0.0
     dev: false
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -2848,12 +2848,12 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: false
 
-  /rollup@3.28.0:
-    resolution: {integrity: sha512-d7zhvo1OUY2SXSM6pfNjgD5+d0Nz87CUp4mt8l/GgVP3oBsPwzNvSzyu1me6BSG9JIgWNTVcafIXBIyM8yQ3yw==}
+  /rollup@3.28.1:
+    resolution: {integrity: sha512-R9OMQmIHJm9znrU3m3cpE8uhN0fGdXiawME7aZIpQqvpS/85+Vt1Hq1/yVIcYfOmaQiHjvXkQAoJukvLpau6Yw==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
 
   /rrweb-cssom@0.6.0:
@@ -3211,19 +3211,19 @@ packages:
       lightgallery: 2.7.1
     dev: false
 
-  /valaxy-addon-waline@0.1.0(valaxy@0.14.53):
+  /valaxy-addon-waline@0.1.0(valaxy@0.14.54):
     resolution: {integrity: sha512-+P5ElZqgSWK7TCPu1E6jLNxHTSAP9orDFiJR0O3vYYmMcMxmuV1+VXuaGBfWcMQpt3knPCHbwir6rNqWw3O/Cw==}
     peerDependencies:
       valaxy: latest
     dependencies:
       '@waline/client': 2.14.9
-      valaxy: 0.14.53(@types/markdown-it@13.0.0)(@unhead/vue@1.3.5)(postcss@8.4.28)(typescript@5.1.6)
+      valaxy: 0.14.54(@types/markdown-it@13.0.0)(@unhead/vue@1.3.5)(postcss@8.4.28)(typescript@5.1.6)
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
 
-  /valaxy-theme-yun@0.14.53:
-    resolution: {integrity: sha512-VxNn9RH5vBxOoTnh1Kf/IZXQAvk21lJ5qmr6Jn3UFkprxQ2ACaYs4d4Cf7Gv1BATnPIkjhsdmbX0SuPlxoQ7Gg==}
+  /valaxy-theme-yun@0.14.54:
+    resolution: {integrity: sha512-fpWAwfMotS4fcVKe35R3u7Yd/nlqxegOp1DOLA08F/9BXcvwzowvUUijec2KRSTB4OQYJof6C6UHsVrG0TC2Ag==}
     dependencies:
       '@explosions/fireworks': 0.0.2
       '@iconify-json/ant-design': 1.1.8
@@ -3231,8 +3231,8 @@ packages:
       animejs: 3.2.1
     dev: false
 
-  /valaxy@0.14.53(@types/markdown-it@13.0.0)(@unhead/vue@1.3.5)(postcss@8.4.28)(typescript@5.1.6):
-    resolution: {integrity: sha512-20/Df07JJIbiNS59jvUJ1JFLUASBCNrRk6nlzzeeq66S64hCZI2oortSC4Num/sYVBnTDBKmwsGgpuSnEG1oJg==}
+  /valaxy@0.14.54(@types/markdown-it@13.0.0)(@unhead/vue@1.3.5)(postcss@8.4.28)(typescript@5.1.6):
+    resolution: {integrity: sha512-5gyK2iTMXB9PNfDa+cQJiZqsR1DsDwzpLI8BAvpX4fOysCn1nMHIjmCBsfftH+AJIavQFW4bY7skiJlpDJihNg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3242,7 +3242,7 @@ packages:
       '@iconify-json/ri': 1.1.12
       '@intlify/unplugin-vue-i18n': 0.12.3(vue-i18n@9.2.2)
       '@types/body-scroll-lock': 3.1.0
-      '@vitejs/plugin-vue': 4.3.2(vite@4.4.9)(vue@3.3.4)
+      '@vitejs/plugin-vue': 4.3.3(vite@4.4.9)(vue@3.3.4)
       '@vueuse/core': 10.3.0(vue@3.3.4)
       '@vueuse/head': 1.3.1(vue@3.3.4)
       '@vueuse/integrations': 10.3.0(fuse.js@6.6.2)(nprogress@0.2.0)(vue@3.3.4)
@@ -3437,10 +3437,10 @@ packages:
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.28
-      rollup: 3.28.0
+      rollup: 3.28.1
       sass: 1.66.1
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: false
 
   /vscode-oniguruma@1.7.0:
