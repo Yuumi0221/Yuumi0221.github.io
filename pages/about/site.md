@@ -7,7 +7,7 @@ cover: https://cdn.yuumi.link/images/settings/yuumi.png
 
 # 未解决问题：
 
-- slide暂时无法使用
+- 暂时没有
 
 
 <div style="

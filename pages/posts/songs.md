@@ -15,15 +15,15 @@ aplayer: true
 
 ★ **Bilibili：[Yu-u-mi](https://space.bilibili.com/7498906)**
 
-☆ AcFun：[Yu-u-mi](https://www.acfun.cn/u/42468942)
-
 ★ **网易云音乐：[Yuumi](https://music.163.com/#/artist?id=30377410&userid=436730182)**
+
+<!-- more -->
 
 ☆ QQ音乐：[Yuumi](https://y.qq.com/n/ryqq/singer/0045agWZ1lLI7O)
 
-☆ YouTube：[Yuumi Hoshino](https://www.youtube.com/channel/UCMLyrzJTU7E7UvvPAIVMMRA)
+☆ AcFun：[Yu-u-mi](https://www.acfun.cn/u/42468942)
 
-<!-- more -->
+☆ YouTube：[Yuumi Hoshino](https://www.youtube.com/channel/UCMLyrzJTU7E7UvvPAIVMMRA)
 
 ------
 
