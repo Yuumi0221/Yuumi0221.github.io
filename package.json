@@ -6,11 +6,11 @@
     "build": "npm run fuse && npm run build:ssg && npm run rss",
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
+    "fuse": "valaxy fuse",
     "dev": "valaxy",
     "new": "valaxy new",
     "rss": "valaxy rss",
-    "serve": "vite preview",
-    "fuse": "valaxy fuse"
+    "serve": "vite preview"
   },
   "dependencies": {
     "aplayer": "^1.10.1",
