@@ -2,7 +2,7 @@
 layout: post
 title: 狒狒买房记
 date: 2023-03-24
-updated: 2023-09-01
+updated: 2023-09-05
 tags: 
   - ACG
   - FF14
@@ -164,3 +164,7 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 
 
 ## 十八周目——森11
+
+好久没见到这么多人抽房了，好热闹呀——
+
+![18](https://cdn.yuumi.link/images/ffhouse/18.png)
