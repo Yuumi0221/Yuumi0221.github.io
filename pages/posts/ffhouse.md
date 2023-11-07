@@ -168,3 +168,13 @@ cover: https://cdn.yuumi.link/images/ffhouse/疯了.jpg
 好久没见到这么多人抽房了，好热闹呀——
 
 ![18](https://cdn.yuumi.link/images/ffhouse/18.png)
+
+
+## 十九周目——白8
+
+![18](https://cdn.yuumi.link/images/ffhouse/19.png)
+
+
+## 二十周目——森46
+
+![18](https://cdn.yuumi.link/images/ffhouse/20.png)
