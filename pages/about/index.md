@@ -24,7 +24,7 @@ cover: https://cdn.yuumi.link/images/settings/yuumi.png
 
 
 
-## 同步回旋加速器
+## 同步回旋粒子加速器
 
 <figure style="display: flex">
     <embed src="https://wakatime.com/share/@Yuumi/a49b3681-974e-4998-9b41-9e5a5c8ada63.svg" width=50% />

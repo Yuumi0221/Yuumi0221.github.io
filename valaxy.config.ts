@@ -1,8 +1,10 @@
 import { defineValaxyConfig } from 'valaxy'
+// import { defineConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from "valaxy-addon-waline";
 // import { addonComponents } from "valaxy-addon-components";
 import { addonLightGallery } from 'valaxy-addon-lightgallery';
+import { addonBangumi } from 'valaxy-addon-bangumi'
 
 // add icons what you will need
 const safelist = [
@@ -28,9 +30,9 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '留言板',
-        url: '/comment/',
-        icon: 'i-ri-clipboard-line',
+        name: '追番列表',
+        url: '/bangumi/',
+        icon: 'i-ri-movie-line',
         color: '#737de5',
       },
       {
@@ -117,6 +119,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       // recaptchaV3Key: "",
     }),
     addonLightGallery(),
+    addonBangumi({
+      api: 'https://yuumi0221-bangumi.web.val.run',
+      bilibiliUid: '7498906',
+      bgmEnabled: false,
+      customCss: '.bbc-bangumi-title a { color: #D69B54; }'
+    }),
   ],
   
   features: {
