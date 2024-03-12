@@ -122,7 +122,9 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonBangumi({
       api: 'https://yuumi0221-bangumi.web.val.run',
       bilibiliUid: '7498906',
-      bgmEnabled: false,
+      bgmUid: '836577',
+      bilibiliEnabled: true,
+      bgmEnabled: true,
       customCss: '.bbc-bangumi-title a { color: #D69B54; }'
     }),
   ],
