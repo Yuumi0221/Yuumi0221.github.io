@@ -30,9 +30,9 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '追番列表',
-        url: '/bangumi/',
-        icon: 'i-ri-movie-line',
+        name: '留言板',
+        url: '/comment/',
+        icon: 'i-ri-clipboard-line',
         color: '#737de5',
       },
       {
