@@ -120,12 +120,12 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonLightGallery(),
     addonBangumi({
-      api: 'https://yuumi0221-bangumi.web.val.run',
+      api: 'https://bilibilibgm.yuumi.link',
       bilibiliUid: '7498906',
       bgmUid: '836577',
       bilibiliEnabled: true,
       bgmEnabled: true,
-      customCss: '.bbc-bangumi-title a { color: #D69B54; }'
+      customCss: '.bbc-bangumi-title a { color: yellow; }'
     }),
   ],
   
