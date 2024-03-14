@@ -122,7 +122,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonBangumi({
       api: 'https://bilibilibgm.yuumi.link/api',
       bilibiliUid: '7498906',
-      bgmUid: '836577',
+      bgmUid: 'yuumi',
       bilibiliEnabled: true,
       bgmEnabled: true,
       customCss: `
