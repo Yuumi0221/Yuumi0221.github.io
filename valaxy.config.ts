@@ -125,7 +125,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       bgmUid: '836577',
       bilibiliEnabled: true,
       bgmEnabled: true,
-      customCss: '.bbc-bangumi-title a { color: "#D69B54"; }'
+      customCss: customCss: `
+        :host {
+          --bbc-text-base-color: #4c4948;
+          --bbc-label-color: #8eab64;
+          --bbc-primary-color: #d69b54;
+        }
+      `,
     }),
   ],
   
