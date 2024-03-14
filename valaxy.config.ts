@@ -125,7 +125,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       bgmUid: '836577',
       bilibiliEnabled: true,
       bgmEnabled: true,
-      customCss: customCss: `
+      customCss: `
         :host {
           --bbc-text-base-color: #4c4948;
           --bbc-label-color: #8eab64;
