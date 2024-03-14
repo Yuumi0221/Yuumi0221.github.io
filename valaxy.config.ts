@@ -120,7 +120,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonLightGallery(),
     addonBangumi({
-      api: 'https://bilibilibgm.yuumi.link',
+      // api: 'https://bilibilibgm.yuumi.link',
+      api: 'bilibili-bangumi-component-yuumi.vercel.app',
       bilibiliUid: '7498906',
       bgmUid: '836577',
       bilibiliEnabled: true,
