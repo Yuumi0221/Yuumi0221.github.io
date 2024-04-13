@@ -2,7 +2,7 @@
 layout: post
 title: Yuumi的翻唱合集
 date: 2022-08-31
-updated: 2023-06-27
+updated: 2024-04-08
 top: 10
 tags:
   - 翻唱
@@ -34,14 +34,45 @@ aplayer: true
 - 歌曲以时间逆序排列
 - 点击标题进入b站，点击图片进入网易云
 
-## 2023
+## 2024
+
+### 🎵[春、恋、花以外の](https://www.bilibili.com/video/BV1fZ421i7rb)
+
+<img src="https://cdn.yuumi.link/images/songs/春恋花.png" alt="春恋花" style="height:250px;"/>
+
+- *2024.3.31*
+- Original：[HIGH4, IU](https://www.youtube.com/watch?v=ouR4nn1G9r4) / [匀子&栗川舜 feat.clessS](https://www.bilibili.com/video/BV1Ux411N77v/)
+- Vocal：奶茶Miruky Yuumi 水怪
+- Mix：樱庭落
+- PV：Yuumi
+
+<meting-js
+ id="2141379565"
+ server="netease"
+ type="song"
+ theme="#D69B54">
+</meting-js>
+
+
+## 2023（共4首）
+
+### 🎵[化四季](https://www.bilibili.com/video/BV1Wu4y127P8/)
+
+<img src="https://cdn.yuumi.link/images/songs/化四季.jpg" alt="化四季" style="height:250px;"/>
+
+- *2023.7.25*
+- Original：[阴阳师](https://www.bilibili.com/video/BV18e4y1W7FQ)
+- Vocal：Yuumi 霖Linn
+- Tune：樱庭落
+- Mix：果屋OFFICE
+
 
 ### 🎵[Sing 2015](https://www.bilibili.com/video/BV1su411a7VT/)
 
 <img src="https://cdn.yuumi.link/images/songs/sing.jpg" alt="sing" style="height:250px;"/>
 
 - *2023.6.18*
-- Original：Goose House
+- Original：[Goose House](https://www.youtube.com/watch?v=AfjLSAOY7rE)
 - Vocal：Yuumi 小雨 变态 小琦 狐狸 猫毛
 - Mix：果屋OFFICE
 - PV：KiK
@@ -53,7 +84,7 @@ aplayer: true
 [<img src="https://cdn.yuumi.link/images/songs/虚言.jpg" alt="虚言" style="height:250px;"/>](https://music.163.com/#/song?id=2028052742)
 
 - *2023.3.6*
-- Original：明透
+- Original：[明透](https://www.youtube.com/watch?v=PtJsY_PkpSI)
 - Vocal：Yuumi
 - Mix：果屋OFFICE
 
@@ -70,7 +101,7 @@ aplayer: true
 [<img src="https://cdn.yuumi.link/images/songs/默剧.png" alt="默剧" style="height:250px;" align=""/>](https://music.163.com/#/song?id=2028044343)
 
 - *2023.2.28*
-- Original：HIMEHINA
+- Original：[HIMEHINA](https://www.youtube.com/watch?v=Ja2183ifOrU)
 - Vocal：Yuumi 梦灯Meito
 - Mix：废废
 - Illust：清水近
@@ -91,7 +122,7 @@ aplayer: true
 <img src="https://cdn.yuumi.link/images/songs/圣祈.jpg" alt="圣祈" style="height:250px;" align=""/>
 
 - *2022.12.25*
-- Original：Aqours
+- Original：[Aqours](https://www.youtube.com/watch?v=fREtIttC3LE)
 - Vocal：AmeAkane Yuumi
 - Mix/Video：AmeAkane
 
@@ -146,7 +177,7 @@ aplayer: true
 [<img src="https://cdn.yuumi.link/images/songs/乘风.jpg" alt="乘风" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1974881460)
 
 - *2022.8.19*
-- 原唱：乘风破浪的姐姐全体
+- 原唱：乘风破浪的姐姐
 - 翻唱：夜夕 卡波特 温彻思墨 雪球儿Yukiki 葵葵 陈德乐Chandelier 孔方 Minto薄荷糖 幻星影  Yuumi 秋灵 相对省略 卜聆 梦幻 耀Akaru 艾欧OwO 泉残方 小亨 千夜栖 洛弗 斯伊乔 漆诺 布酱 无乐添影 墨恒纾 风羽翼 心海未散
 - 后期：迟色
 
@@ -169,7 +200,7 @@ aplayer: true
 :::
 
 - *2022.8.12*
-- 原唱：《光るなら》-Goose house
+- 原唱：[Goose house](https://www.youtube.com/watch?v=SnXkhkEvNIM)
 - 翻唱：七草动漫社宅舞翻唱部 阿荨 阿鱼 初玖 D少 陌北凉 秦玖 时织 水丸子 雁 依久 亿碗饭  yuumi
 - 混音：亿碗饭
 - 策划、视频：玉子
@@ -180,7 +211,7 @@ aplayer: true
 <img src="https://cdn.yuumi.link/images/songs/romance.png" alt="ロマンスの約束" style="height:250px;" align=""/>
 
 - *2022.6.4*
-- Original：幾田りら
+- Original：[幾田りら](https://www.youtube.com/watch?v=5r7ooPbDn-Q)
 - Vocal：Yuumi
 - Guitar：Martin Weiwen
 - Drum：Zis
@@ -192,7 +223,7 @@ aplayer: true
 <img src="https://cdn.yuumi.link/images/songs/sparkle.jpg" alt="スパークル" style="height:250px;" align=""/>
 
 - *2022.6.3*
-- Original：幾田りら
+- Original：[幾田りら](https://www.youtube.com/watch?v=q4CbHfW3Ji8)
 - Vocal / Mix：Yuumi
 
 
@@ -201,7 +232,7 @@ aplayer: true
 <img src="https://cdn.yuumi.link/images/songs/lens.jpg" alt="レンズ" style="height:250px;" align=""/>
 
 - *2022.6.2*
-- Original：幾田りら
+- Original：[幾田りら](https://www.youtube.com/watch?v=tGj-dXAX590)
 - Vocal / Mix：Yuumi
 
 
@@ -210,7 +241,7 @@ aplayer: true
 [<img src="https://cdn.yuumi.link/images/songs/香蕉.jpg" alt="バナナが食べれないサル" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1952489949)
 
 - *2022.5.31*
-- Original：OH MY GIRL BANHANA
+- Original：[OH MY GIRL BANHANA](https://www.youtube.com/watch?v=A5aTxyEdD4k)
 - Vocal：Yuumi 奶茶 柠檬
 - Mix/Movie：AmeAkane
 
@@ -229,7 +260,7 @@ aplayer: true
 <img src="https://cdn.yuumi.link/images/songs/dsom.jpg" alt="dsom" style="height:250px;" align=""/>
 
 - *2021.10.31*
-- Original：μ's
+- Original：[μ's](https://www.youtube.com/watch?v=PBeKaFMS6nY)
 - Vocal：音乃木坂幼稚園
 	- 穂乃果－小裙边
 	- ことり－乌五云
@@ -317,13 +348,13 @@ aplayer: true
 <img src="https://cdn.yuumi.link/images/songs/Sing&Smile!!.jpg" alt="Sing&Smile!!" style="height:250px;" align=""/>
 
 - *2021.5.7*
-- 原唱：QU4RTZ
-- 翻唱：
+- Original：[QU4RTZ](https://www.youtube.com/watch?v=9SEiiwiiha4)
+- Vocal：
 	- 中须霞—羊驼
 	- 艾玛·维尔德—帕露
 	- 近江彼方—Yuumi
 	- 天王寺璃奈—星月モモ
-- 混音：桜庭落
+- Mix：桜庭落
 - PV：柿恋
 
 
@@ -405,7 +436,7 @@ aplayer: true
 [<img src="https://cdn.yuumi.link/images/songs/魔女.jpg" alt="リテラチュア" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1499027682)
 
 - *2020.11.29*
-- 原唱：上田麗奈
+- 原唱：[上田麗奈](https://www.youtube.com/watch?v=ufLKDNlLrAQ)
 - 翻唱 · 修对：Yuumi
 - 混音 · PV · 消音伴奏：AmeAkane
 - 完整版Mix：雨点雨点
@@ -435,11 +466,11 @@ TV size：
 > 系Ito已经毕业停止活动啦，这里仅作为存档保留
 
 - *2020.11.20*
-- 本家様：[LiSA×Uru produced by Ayase](https://youtu.be/impSuIygMiQ)
-- 伴奏来源：汐澤香緒礼 [BV16r4y1w7c3](https://www.bilibili.com/video/BV16r4y1w7c3)（感谢授权）
-- VOL：Ito & Yuumi
-- MIX：萨摩灰
-- ILLUST：清水近 & Yuumi
+- Original：[LiSA×Uru produced by Ayase](https://youtu.be/impSuIygMiQ)
+- Instrument：汐澤香緒礼 [BV16r4y1w7c3](https://www.bilibili.com/video/BV16r4y1w7c3)（感谢授权）
+- Vocal：Ito & Yuumi
+- Mix：萨摩灰
+- Illust：清水近 & Yuumi
 - PV：Ito
 - 手写字幕：Yuumi
 
@@ -467,10 +498,10 @@ TV size：
 > 系Ito已经毕业停止活动啦，这里仅作为存档保留
 
 - *2020.10.15*
-- 原唱：Starlight九九组
-- VOL：Ito & Yuumi
-- MIX：宵夜混音铺（夏璃夜）
-- illust：拉芙斯Dodo
+- Original：[Starlight九九组](https://www.youtube.com/watch?v=R8zIk-x3DrA)
+- Vocal：Ito & Yuumi
+- Mix：宵夜混音铺（夏璃夜）
+- Illust：拉芙斯Dodo
 - PV：Ito
 
 <audio src="https://cdn.yuumi.link/audio/你鬼我鬼/你鬼我鬼.mp3" controls="controls" controlsList="nodownload" oncontextmenu="return false"></audio>
@@ -497,10 +528,10 @@ TV size：
 > 系Ito和Arima已经毕业停止活动啦，这里仅作为存档保留
 
 - *2020.8.13*
-- 原唱：HoneyWorks
+- Original：[HoneyWorks](https://www.youtube.com/watch?v=sXLzVwgmv_w)
 - 策划：Ito
-- VOL：3000 / Kurita / Ito / Arima / Yuumi / Linn
-- MIX：宵夜混音铺（夏璃夜）
+- Vocal：3000 / Kurita / Ito / Arima / Yuumi / Linn
+- Mix：宵夜混音铺（夏璃夜）
 - Illust：
 	- 绘本组：Noni
 	- 告白组：清水近
@@ -547,6 +578,7 @@ TV size：
 [<img src="https://cdn.yuumi.link/images/songs/karute.jpg" alt="不可思議のカルテ" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1449567038)
 
 - *2020.5.8*
+- Original：[青春ブタ野郎はランドセルガールの夢を見ない](https://www.youtube.com/watch?v=MO6W_p1J-F4)
 - Vocal： 
 	- 樱岛麻衣——繭墨瞳
 	- 古贺朋绘——艾莉Anicca
@@ -554,7 +586,7 @@ TV size：
 	- 丰浜和香——长泽陵川
 	- 梓川枫———utoc-
 	- 牧之原翔子—沫绵酱yoki
-- 和声：艾莉Anicca、Yuumi
+- Chorus：艾莉Anicca、Yuumi
 - Special THX：空心菜
 - Mix：贼恩
 
@@ -575,8 +607,8 @@ TV size：
 [<img src="https://cdn.yuumi.link/images/songs/tl.jpg" alt="TinyLight" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1425137033)
 
 - *2020.2.21*
-- 歌：[八尋寧々(Cv.鬼頭明里)](https://www.youtube.com/watch?v=7wOD-9jwbJQ&list=TLGGrP8XFxvpPmUzMDAxMjAyMA)
-- 翻唱：Yuumi
+- Original：[八尋寧々(Cv.鬼頭明里)](https://www.youtube.com/watch?v=7wOD-9jwbJQ&list=TLGGrP8XFxvpPmUzMDAxMjAyMA)
+- Vocal：Yuumi
 - Mix/PV：Yuumi
 - Special Thanks：Tsubaki椿
 
@@ -593,7 +625,7 @@ TV size：
 [<img src="https://cdn.yuumi.link/images/songs/天使.png" alt="天使" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1418443669)
 
 - *2020.1.17*
-- Original：HoneyWorks feat.成海聖奈（CV：雨宮天）
+- Original：[HoneyWorks feat.成海聖奈（CV：雨宮天）](https://www.youtube.com/watch?v=v2HN4gd66nM)
 - Video：[av80167925](https://www.bilibili.com/video/av80167925/)
 - Vocal：Yuumi
 - Mix：萨摩灰
@@ -614,7 +646,7 @@ TV size：
 [<img src="https://cdn.yuumi.link/images/songs/HF.jpg" alt="ホーリーフラッグ" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1450585202)
 
 - *2019.10.20*
-- Original：CHiCO with HoneyWorks
+- Original：[CHiCO with HoneyWorks](https://www.youtube.com/watch?v=d5GzFeBjphU)
 - Vocal：昔遥 太二 夜茶子 春树 银轩 九肆 Yuumi 依言 咖喱 筱翼 杏 J.C. TKsuke 炸鸡 Akito
 - 念白：咖喱 筱翼 杏 J.C. TKsuke 银轩 Akito
 - 和声：太二（男低）咖喱（女中）筱翼（女高）
@@ -645,7 +677,7 @@ TV size：
 [<img src="https://cdn.yuumi.link/images/songs/if.png" alt="八月のif" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1488064820)
 
 - *2019.8.31*
-- Original：户山香澄 & 山吹沙绫（Poppin'Party）
+- Original：[户山香澄 & 山吹沙绫（Poppin'Party）](https://www.youtube.com/watch?v=s1k3dMXzSAE)
 - Vocal：Yuumi & 奶茶Miruky
 - Mix：Yuumi
 - PV：Yuumi
@@ -694,7 +726,7 @@ TV size：
 [<img src="https://cdn.yuumi.link/images/songs/センチメンタルクライシス.jpg" alt="センチメンタルクライシス" style="height:250px;" align=""/>](https://music.163.com/#/song?id=1356593985)
 
 - *2019.4.5*
-- Original： halca
+- Original：[halca](https://www.youtube.com/watch?v=DScR3LonMFA)
 - Vocal：Yuumi
 - Mix：三星堆后期组
 - Movie：DD
