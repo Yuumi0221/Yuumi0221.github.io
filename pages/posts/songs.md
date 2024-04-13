@@ -38,7 +38,7 @@ aplayer: true
 
 ### 🎵[春、恋、花以外の](https://www.bilibili.com/video/BV1fZ421i7rb)
 
-<img src="https://cdn.yuumi.link/images/songs/春恋花.png" alt="春恋花" style="height:250px;"/>
+[<img src="https://cdn.yuumi.link/images/songs/春恋花.png" alt="春恋花" style="height:250px;"/>](https://music.163.com/#/song?id=2141379565)
 
 - *2024.3.31*
 - Original：[HIGH4, IU](https://www.youtube.com/watch?v=ouR4nn1G9r4) / [匀子&栗川舜 feat.clessS](https://www.bilibili.com/video/BV1Ux411N77v/)
