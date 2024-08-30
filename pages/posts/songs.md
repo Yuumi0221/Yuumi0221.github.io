@@ -2,7 +2,7 @@
 layout: post
 title: Yuumi的翻唱合集
 date: 2022-08-31
-updated: 2024-04-08
+updated: 2024-08-30
 top: 10
 tags:
   - 翻唱
@@ -35,6 +35,26 @@ aplayer: true
 - 点击标题进入b站，点击图片进入网易云
 
 ## 2024
+
+
+### 🎵[キョリ感](https://www.bilibili.com/video/BV1AAW6eqEwE)
+
+[<img src="https://cdn.yuumi.link/images/songs/距离感.png" alt="距离感" style="height:250px;"/>](https://music.163.com/#/song?id=2620706903)
+
+- *2024.8.25*
+- Original：[ハコニワリリィ](https://www.youtube.com/watch?v=fuXSoyuXBYM)
+- Vocal：Yuumi & 奶茶Miruky
+- Mix：樱庭落
+- PV：Yuumi
+- Cover：https://picrew.me/ja/image_maker/165901
+
+<meting-js
+ id="2620706903"
+ server="netease"
+ type="song"
+ theme="#D69B54">
+</meting-js>
+
 
 ### 🎵[春、恋、花以外の](https://www.bilibili.com/video/BV1fZ421i7rb)
 
