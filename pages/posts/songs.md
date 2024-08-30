@@ -76,7 +76,7 @@ aplayer: true
 
 ## 2023（共4首）
 
-### 🎵[化四季](https://www.bilibili.com/video/BV1Wu4y127P8/)
+### 🎵化四季
 
 <img src="https://cdn.yuumi.link/images/songs/化四季.jpg" alt="化四季" style="height:250px;"/>
 
@@ -85,6 +85,8 @@ aplayer: true
 - Vocal：Yuumi 霖Linn
 - Tune：樱庭落
 - Mix：果屋OFFICE
+
+<audio src="https://cdn.yuumi.link/audio/化四季/化四季.wav" controls="controls" controlsList="nodownload" oncontextmenu="return false"></audio>
 
 
 ### 🎵[Sing 2015](https://www.bilibili.com/video/BV1su411a7VT/)
