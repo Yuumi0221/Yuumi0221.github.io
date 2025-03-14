@@ -110,13 +110,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
       comment: true,
       pageview: true,
+      reaction: [],
       emoji: [
-        "https://jsd.onmicrosoft.cn/gh/walinejs/emojis@latest/bmoji/",
-        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/weibo/",
-        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/qq/",
-        "https://jsd.onmicrosoft.cn/npm/@waline/emojis@latest/tieba/",
+        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+        '//unpkg.com/@waline/emojis@1.2.0/tieba',
+        '//unpkg.com/@waline/emojis@1.2.0/qq',
       ],
-      // recaptchaV3Key: "",
     }),
     addonLightGallery(),
     addonBangumi({
