@@ -1,0 +1,44 @@
+:root {
+    // 白天模式下文章框的底色
+    --va-c-bg-light: rgba(255, 255, 255, 0.8);
+    // 边栏背景图片(已弃用)
+    // --yun-sidebar-bg-img: url('https://cdn.yuumi.link/images/settings/Yuumi_Icon.png');
+    // 边栏背景颜色透明(已弃用)
+    // --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
+}
+
+// 页眉页脚渐变色
+.yun-page-header-gradient {
+    background: linear-gradient(to right,rgba(255, 237, 170, 0.2) 0,rgba(255, 254, 173, 0.2) 100%);
+}
+.yun-footer-gradient {
+    height: 130px;
+    background: linear-gradient(to right,rgba(255, 237, 170, 0.2) 0,rgba(255, 254, 173, 0.2) 100%);
+}
+
+// 夜晚模式
+html.dark {
+    --va-c-bg-light:rgba(5, 16, 29, 0.8);
+    .yun-page-header-gradient {
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.2) 0,rgba(0, 0, 0, 0.2) 100%);
+    }
+    .yun-footer-gradient {
+        height: 130px;
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.2) 0,rgba(0, 0, 0, 0.2) 100%);
+    }
+}
+
+// 首页大字两边的背景
+.char-left {
+    border-right:0px solid rgba(255,255,255, 0)
+}
+.char-right {
+    border-left:0px solid rgba(255,255,255, 0)
+}
+
+// b站视频大小
+iframe.bilibili-video {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16/9;
+}

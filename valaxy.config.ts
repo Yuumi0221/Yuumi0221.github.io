@@ -30,9 +30,9 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '留言板',
-        url: '/comment/',
-        icon: 'i-ri-clipboard-line',
+        name: '追番列表',
+        url: '/anime/',
+        icon: 'i-ri-movie-line',
         color: '#737de5',
       },
       {
@@ -49,13 +49,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     ],
 
-    menu: {
-      custom: {
-        title: 'menu.slides',
-        url: '/slides/',
-        icon: 'i-ri-keynote-line'
-      }
-    },
+    // menu: {
+    //   custom: {
+    //     title: 'menu.slides',
+    //     url: '/slides/',
+    //     icon: 'i-ri-keynote-line'
+    //   }
+    // },
     
     bg_image: {
       enable: true,

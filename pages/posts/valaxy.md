@@ -139,9 +139,9 @@ pnpm up --latest -i
 - `pages`: 所有页面 
 	- `posts`: 博客文章，文件格式为markdown，推荐使用 [Typora](https://typora.io/) 或 VSCode 编辑
 - `public`: 静态资源文件夹（如图片），可以直接在文章中引用
-- `styles`: 覆盖主题样式，文件夹下的这些 scss 文件将会被自动加载 
-	- `index.scss`
-	- `css-vars.scss`
+- `styles`: 覆盖主题样式，文件夹下的 index.xxx 文件将会被自动加载 
+	- `index.ts`
+	- `vars.scss`
 - `components`: 自定义你的组件（将会被自动注册）
 - `layouts`: 自定义布局 (譬如可以通过 `layout: xxx` 来使用 `layouts/xxx.vue` 布局)
 - `locales`: 自定义国际化关键词
@@ -158,7 +158,7 @@ pnpm up --latest -i
 
 #### 主题配置
 
-##### 左侧边栏
+##### 顶部按钮
 
 与回到主页相对的按钮也可以修改为别的页面。如修改为幻灯片 slides 页面：
 
@@ -398,22 +398,39 @@ export default defineValaxyConfig({
 
 ### 自定义配置
 
-参考了[YH大佬的配置](https://liyhil.com/posts/valaxy-yun%E9%85%8D%E7%BD%AE#%E6%9C%AC%E4%BA%BA%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%B7%E5%BC%8F)更新了一下自定义配置：
+在 `styles` 目录下创建 `index.ts`，在其中引入其他样式文件 `vars.scss` ：
+
+```typescript
+// styles/index.ts
+import './vars.scss'
+```
 
 ```scss
-// styles/css-vars.scss
+// styles/vars.scss
 :root {
-    // 白天模式下文章框的底色
-    --va-c-bg-light: rgba(255, 255, 255, 0.7);
-    // 边栏背景图片
-    --yun-sidebar-bg-img: url('https://cdn.yuumi.link/images/settings/Yuumi_Icon.png');
-    // 边栏背景颜色透明
-    --yun-sidebar-bg-color: rgba(255, 255, 255, 0);
+    // 文章框的底色
+    --va-c-bg-light: rgba(255, 255, 255, 0.8);
 }
 
-// 夜晚模式下文章框的底色
+// 页眉页脚渐变色
+.yun-page-header-gradient {
+    background: linear-gradient(to right,rgba(255, 237, 170, 0.2) 0,rgba(255, 254, 173, 0.2) 100%);
+}
+.yun-footer-gradient {
+    height: 130px;
+    background: linear-gradient(to right,rgba(255, 237, 170, 0.2) 0,rgba(255, 254, 173, 0.2) 100%);
+}
+
+// 夜间模式
 html.dark{
-    --va-c-bg-light:rgba(5, 16, 29, 0.7);
+    --va-c-bg-light:rgba(5, 16, 29, 0.8);
+    .yun-page-header-gradient {
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.2) 0,rgba(0, 0, 0, 0.2) 100%);
+    }
+    .yun-footer-gradient {
+        height: 130px;
+        background: linear-gradient(to right,rgba(0, 0, 0, 0.2) 0,rgba(0, 0, 0, 0.2) 100%);
+    }
 }
 
 // 首页大字两边的背景
@@ -497,7 +514,7 @@ on:
 
 #### 其他
 
-没用过其他的，自行百度吧（）
+不太清楚了！建议看原指南内的部署教程。
 
 ## 大功告成！
 
