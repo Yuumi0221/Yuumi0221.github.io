@@ -101,6 +101,15 @@ export default defineValaxyConfig<UserThemeConfig>({
     
   },
 
+  groupIcons: {
+    customIcon:{
+      nodejs: 'vscode-icons:file-type-node',
+      playwright: 'vscode-icons:file-type-playwright',
+      typedoc: 'vscode-icons:file-type-typedoc',
+      eslint: 'vscode-icons:file-type-eslint',
+    },
+  },
+
   addons: [
     // addonComponents(),
     addonWaline({
@@ -110,6 +119,8 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
       comment: true,
       pageview: true,
+      highlighter: true,
+      texRenderer: true,
       reaction: [],
       emoji: [
         '//unpkg.com/@waline/emojis@1.2.0/bmoji',

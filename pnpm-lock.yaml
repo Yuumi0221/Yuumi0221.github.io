@@ -11,23 +11,23 @@ dependencies:
     specifier: ^0.5.0
     version: 0.5.0
   valaxy:
-    specifier: 0.22.14
-    version: 0.22.14(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
+    specifier: 0.22.16
+    version: 0.22.16(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
   valaxy-addon-bangumi:
     specifier: ^0.2.2
-    version: 0.2.2(valaxy@0.22.14)
+    version: 0.2.2(valaxy@0.22.16)
   valaxy-addon-components:
     specifier: ^0.1.0
     version: 0.1.0
   valaxy-addon-lightgallery:
     specifier: ^0.0.4
-    version: 0.0.4(valaxy@0.22.14)
+    version: 0.0.4(valaxy@0.22.16)
   valaxy-addon-waline:
     specifier: ^0.2.0
-    version: 0.2.0(typescript@5.8.2)(valaxy@0.22.14)
+    version: 0.2.0(typescript@5.8.2)(valaxy@0.22.16)
   valaxy-theme-yun:
-    specifier: 0.22.14
-    version: 0.22.14(vue@3.5.13)
+    specifier: 0.22.16
+    version: 0.22.16(vue@3.5.13)
 
 devDependencies:
   typescript:
@@ -2089,8 +2089,8 @@ packages:
       - vue
     dev: false
 
-  /@valaxyjs/devtools@0.22.14(@types/markdown-it@14.1.2)(debug@4.4.0)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)(vite@6.2.2):
-    resolution: {integrity: sha512-dkXOKC/MZiZoZY+QWRmUEel8EFOQIzbs5Rt1Jl0IjXBV+/0d6ED32r19fNMKBxVeCDZThAU1+qEBDr9/XhaYhQ==}
+  /@valaxyjs/devtools@0.22.16(@types/markdown-it@14.1.2)(debug@4.4.0)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)(vite@6.2.2):
+    resolution: {integrity: sha512-YbctU2X1XJS4nonWGW0SHo9ZbJDiSZ96FNr0B84Soc1CXzr59u4Ae+lRsDb5midskg7WcYqiuz5SMOiPljxSKA==}
     dependencies:
       '@rollup/pluginutils': 5.1.4
       axios: 1.8.3(debug@4.4.0)
@@ -2100,7 +2100,7 @@ packages:
       js-yaml: 4.1.0
       pathe: 2.0.3
       sirv: 3.0.1
-      valaxy: 0.22.14(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
+      valaxy: 0.22.16(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
       vite-dev-rpc: 1.0.7(vite@6.2.2)
     transitivePeerDependencies:
       - '@babel/parser'
@@ -2139,8 +2139,8 @@ packages:
       - yaml
     dev: false
 
-  /@valaxyjs/utils@0.22.14:
-    resolution: {integrity: sha512-IFqPeFXtd7nVf0oMmrSbVfaix+iuobI4ZP50ys90QOvCfg4y8BaPdnUDx7W4Fau0Hq+xsM3yfHGX8HwuJ9G1LA==}
+  /@valaxyjs/utils@0.22.16:
+    resolution: {integrity: sha512-MWeyS/54cneKpM0xA0TvV/+sAtZQ7fi3hCv5HF87tNQykzjHGEtQA7Rz+2ldY2Dt6yxeNElYfzNUUjE7DAXmvg==}
     dev: false
 
   /@vitejs/plugin-vue@5.2.1(vite@6.2.2)(vue@3.5.13):
@@ -2331,18 +2331,6 @@ packages:
     resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==}
     dev: false
 
-  /@vueuse/core@10.11.1(vue@3.5.13):
-    resolution: {integrity: sha512-guoy26JQktXPcz+0n3GukWIy/JDNKti9v6VEMu6kV2sYBsWuGiTU8OWdg+ADfUbHg3/3DlqySDe7JmdHrktiww==}
-    dependencies:
-      '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 10.11.1
-      '@vueuse/shared': 10.11.1(vue@3.5.13)
-      vue-demi: 0.14.10(vue@3.5.13)
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - vue
-    dev: false
-
   /@vueuse/core@12.0.0-beta.1(typescript@5.8.2):
     resolution: {integrity: sha512-+Z+qGQ0yi1ZA1xQvNQx2FUZiwonTluoK7PLucG+fUpyvclEWCuBn6VWbOvsYZq0HkXjFr/SJZ236/ksoXbc+kg==}
     dependencies:
@@ -2417,10 +2405,6 @@ packages:
       - typescript
     dev: false
 
-  /@vueuse/metadata@10.11.1:
-    resolution: {integrity: sha512-IGa5FXd003Ug1qAZmyE8wF3sJ81xGLSqTqtQ6jaVfkeZ4i5kS2mwQF61yhVqojRnenVew5PldLyRgvdl4YYuSw==}
-    dev: false
-
   /@vueuse/metadata@12.0.0-beta.1:
     resolution: {integrity: sha512-TL2nBO72j5U6U9ohIVoaf3DHaYtnCCOxEgweu8rLIbdRMcY69qTwZI+6XFSCWLLwW0anzuoj5OZns9KZIqvMEA==}
     dev: false
@@ -2429,14 +2413,14 @@ packages:
     resolution: {integrity: sha512-TRNksqmvtvqsuHf7bbgH9OSXEV2b6+M3BSN4LR5oxWKykOFT9gV78+C2/0++Pq9KCp9KQ1OQDPvGlWNQpOb2Mw==}
     dev: false
 
-  /@vueuse/motion@2.2.6(vue@3.5.13):
-    resolution: {integrity: sha512-gKFktPtrdypSv44SaW1oBJKLBiP6kE5NcoQ6RsAU3InemESdiAutgQncfPe/rhLSLCtL4jTAhMmFfxoR6gm5LQ==}
+  /@vueuse/motion@3.0.3(vue@3.5.13):
+    resolution: {integrity: sha512-4B+ITsxCI9cojikvrpaJcLXyq0spj3sdlzXjzesWdMRd99hhtFI6OJ/1JsqwtF73YooLe0hUn/xDR6qCtmn5GQ==}
     peerDependencies:
       vue: '>=3.0.0'
     dependencies:
-      '@vueuse/core': 10.11.1(vue@3.5.13)
-      '@vueuse/shared': 10.11.1(vue@3.5.13)
-      csstype: 3.1.3
+      '@vueuse/core': 13.0.0(vue@3.5.13)
+      '@vueuse/shared': 13.0.0(vue@3.5.13)
+      defu: 6.1.4
       framesync: 6.1.2
       popmotion: 11.0.5
       style-value-types: 5.1.2
@@ -2444,17 +2428,7 @@ packages:
     optionalDependencies:
       '@nuxt/kit': 3.16.0
     transitivePeerDependencies:
-      - '@vue/composition-api'
       - magicast
-    dev: false
-
-  /@vueuse/shared@10.11.1(vue@3.5.13):
-    resolution: {integrity: sha512-LHpC8711VFZlDaYUXEBbFBCQ7GS3dVU9mjOhhMhXP6txTV4EhYQg/KGnQuvt/sPAtoUKq7VVUnL6mVtFoL42sA==}
-    dependencies:
-      vue-demi: 0.14.10(vue@3.5.13)
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - vue
     dev: false
 
   /@vueuse/shared@12.0.0-beta.1(typescript@5.8.2):
@@ -6360,58 +6334,57 @@ packages:
     hasBin: true
     dev: false
 
-  /valaxy-addon-bangumi@0.2.2(valaxy@0.22.14):
+  /valaxy-addon-bangumi@0.2.2(valaxy@0.22.16):
     resolution: {integrity: sha512-gya2PFf1ysdJw5irHnsS185Mi3+boPYgw+a2bnqgAVEbwMEKmNCOiAkH0C30IYweUdHe/Q6QrFd9PPYEC1dcEg==}
     peerDependencies:
       valaxy: latest
     dependencies:
       bilibili-bangumi-component: 0.3.1
-      valaxy: 0.22.14(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
+      valaxy: 0.22.16(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
     dev: false
 
   /valaxy-addon-components@0.1.0:
     resolution: {integrity: sha512-7uCJgUgc2JHISmz/UDQlhBqGSNW4QKmkiRlcwj5WhjhScC/KktK8JtADeKh6FCaAJHbjShovHB/9UPVtnTwORg==}
     dev: false
 
-  /valaxy-addon-lightgallery@0.0.4(valaxy@0.22.14):
+  /valaxy-addon-lightgallery@0.0.4(valaxy@0.22.16):
     resolution: {integrity: sha512-+pQJUBCPXff5Isd5ZfNrgkEqh+oKPvzNvgw74vAxmPEeWKvW8786lftVgkoWByFrNsn92iN7q7h5jt3evmQFDg==}
     peerDependencies:
       valaxy: latest
     dependencies:
       lightgallery: 2.7.2
-      valaxy: 0.22.14(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
+      valaxy: 0.22.16(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
     dev: false
 
-  /valaxy-addon-waline@0.2.0(typescript@5.8.2)(valaxy@0.22.14):
+  /valaxy-addon-waline@0.2.0(typescript@5.8.2)(valaxy@0.22.16):
     resolution: {integrity: sha512-/aJ4XkMaKPVcZYdvzlJQVgbZ0KYZ24/BncJRmSdt33+rkRm8OeSvyQkwfXDnTJSyrbM3jL5qtLL9Bvl9JTHzTg==}
     peerDependencies:
       valaxy: latest
     dependencies:
       '@waline/client': 3.5.6(typescript@5.8.2)
-      valaxy: 0.22.14(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
+      valaxy: 0.22.16(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)
     transitivePeerDependencies:
       - typescript
     dev: false
 
-  /valaxy-theme-yun@0.22.14(vue@3.5.13):
-    resolution: {integrity: sha512-mSQvR0LMlfSuq2qhK16ZGhCTmkjdswAMKRQjONINB+gcqJhfNdAqN1WvaSi9spaYQS0aH3kCLnJi7U+iSV8tVg==}
+  /valaxy-theme-yun@0.22.16(vue@3.5.13):
+    resolution: {integrity: sha512-KnkEEmcXY5T4C0yIgoxM4mNG02OmQ+8avcP3MDW1o5bmIj2BOKT4YoojmSTU2WIeLdjk8PmORy9FmJajYHPpdg==}
     dependencies:
       '@ctrl/tinycolor': 4.1.0
       '@explosions/fireworks': 0.1.0
       '@iconify-json/ant-design': 1.2.5
       '@iconify-json/simple-icons': 1.2.28
-      '@vueuse/motion': 2.2.6(vue@3.5.13)
+      '@vueuse/motion': 3.0.3(vue@3.5.13)
       animejs: 3.2.2
       gsap: 3.12.7
       primevue: 4.3.2(vue@3.5.13)
     transitivePeerDependencies:
-      - '@vue/composition-api'
       - magicast
       - vue
     dev: false
 
-  /valaxy@0.22.14(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2):
-    resolution: {integrity: sha512-KMJ8cDPHCi07kSNuBEENeZuMy7sCw7i6lyFCvuXGmP4gVitu2f8cV+/vgNC6QVriJgA9ctFT9QcwHopPj6r+yQ==}
+  /valaxy@0.22.16(@types/markdown-it@14.1.2)(axios@1.8.3)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2):
+    resolution: {integrity: sha512-er5prcL/3DeBgRDAOxMpB53Yz7duzR7svs9dmLd4rEX9ecDvkmzVV2ZRHzMhowUyKz+ebHTTynwhIMuM0YlYyA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -6425,8 +6398,8 @@ packages:
       '@unhead/addons': 1.11.20
       '@unhead/schema-org': 1.11.20(@unhead/vue@1.11.20)(unhead@1.11.20)
       '@unhead/vue': 1.11.20(vue@3.5.13)
-      '@valaxyjs/devtools': 0.22.14(@types/markdown-it@14.1.2)(debug@4.4.0)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)(vite@6.2.2)
-      '@valaxyjs/utils': 0.22.14
+      '@valaxyjs/devtools': 0.22.16(@types/markdown-it@14.1.2)(debug@4.4.0)(eslint@9.22.0)(postcss@8.5.3)(typescript@5.8.2)(vite@6.2.2)
+      '@valaxyjs/utils': 0.22.16
       '@vitejs/plugin-vue': 5.2.1(vite@6.2.2)(vue@3.5.13)
       '@vue/devtools-api': 7.7.2
       '@vueuse/core': 12.0.0-beta.1(typescript@5.8.2)
@@ -6790,21 +6763,6 @@ packages:
 
   /vscode-uri@3.0.8:
     resolution: {integrity: sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==}
-    dev: false
-
-  /vue-demi@0.14.10(vue@3.5.13):
-    resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
-    engines: {node: '>=12'}
-    hasBin: true
-    requiresBuild: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-    dependencies:
-      vue: 3.5.13(typescript@5.8.2)
     dev: false
 
   /vue-flow-layout@0.1.1(vue@3.5.13):

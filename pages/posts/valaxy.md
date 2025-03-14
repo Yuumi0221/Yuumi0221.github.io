@@ -162,7 +162,7 @@ pnpm up --latest -i
 
 与回到主页相对的按钮也可以修改为别的页面。如修改为幻灯片 slides 页面：
 
-```typescript
+```typescript [valaxy.config.ts]
 	menu: {
       custom: {
         title: 'menu.slides',
@@ -174,12 +174,12 @@ pnpm up --latest -i
 
 - `menu.slides` 指在 `locales` 文件夹中设置的国际化关键词
 
-	```yaml
-	// locales/zh-CN.yml
+	```yaml [locales\zh-CN.yml]
 	menu:
 	  slides: 幻灯片
-	  
-	// locales/en.yml
+	```
+
+	```yaml [locales\en.yml]
 	menu:
 	  slides: Slides
 	```
@@ -188,7 +188,7 @@ pnpm up --latest -i
 
 ##### 网站背景图片
 
-```typescript
+```typescript [valaxy.config.ts]
 	bg_image: {
       enable: true,
       url: "https://xxx.xxxx",	// 白日模式背景
@@ -198,7 +198,7 @@ pnpm up --latest -i
 
 ##### 首页的中二语句
 
-```yaml
+```typescript [valaxy.config.ts]
 	say: {
       enable: true,
       api: "https://el-bot-api.vercel.app/api/words/young",
@@ -213,7 +213,7 @@ pnpm up --latest -i
 
 ##### 主题色
 
-```yaml
+```typescript [valaxy.config.ts]
 	colors: {
       primary: "#D69B54",
     },
@@ -221,7 +221,7 @@ pnpm up --latest -i
 
 ##### 鼠标点击特效
 
-```yaml
+```typescript [valaxy.config.ts]
 	fireworks: {
       enable: true,
       colors: ['#FFE57D', '#FFCD88', '#E6F4AD']
@@ -230,7 +230,7 @@ pnpm up --latest -i
 
 ##### 页脚
 
-```yaml
+```typescript [valaxy.config.ts]
 	footer: {
       since: 2021,
       icon: {
@@ -260,7 +260,7 @@ pnpm add valaxy-addon-waline
 
 加载插件
 
-```yaml
+```typescript [valaxy.config.ts]
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from "valaxy-addon-waline";
 
@@ -295,7 +295,7 @@ pnpm add valaxy-addon-lightgallery
 
 加载插件
 
-```yaml
+```typescript [valaxy.config.ts]
 import { defineValaxyConfig } from 'valaxy'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 
@@ -310,7 +310,7 @@ export default defineValaxyConfig({
 
 - 在主题设置的 `pages` 或 `menu` 中添加相册页面，如：
 
-	```typescript
+	```typescript [valaxy.config.ts]
 		pages: [
 	      {
 	        name: '相册',
@@ -323,7 +323,7 @@ export default defineValaxyConfig({
 
 - pages 文件夹中新建相册文件夹 albums，在其中新建 `index.md` 添加相簿：
 
-	```markdown
+	```markdown [pages\albums\index.md]
 	---
 	layout: albums
 	title: 相册
@@ -347,7 +347,7 @@ export default defineValaxyConfig({
 
 - 在 albums 文件夹中新建相簿，如 `sky.md`，在其中添加照片：
 
-	```markdown
+	```markdown [pages\albums\sky.md]
 	---
 	title: 天空
 	layout: gallery
@@ -371,7 +371,7 @@ export default defineValaxyConfig({
 
 #### 站长信息
 
-```typescript
+```typescript [site.config.ts]
   url: 'https://yuumi.link',
   favicon: "https://cdn.yuumi.link/images/settings/yuumi.svg",	// 网页图标链接
   lang: 'zh-CN',
@@ -389,7 +389,7 @@ export default defineValaxyConfig({
 
 #### 搜索
 
-```typescript
+```typescript [site.config.ts]
   search: {
     enable: true,
     type: 'fuse',	//"algolia"或"engine"或"fuse"，代码有注释
@@ -400,13 +400,11 @@ export default defineValaxyConfig({
 
 在 `styles` 目录下创建 `index.ts`，在其中引入其他样式文件 `vars.scss` ：
 
-```typescript
-// styles/index.ts
+```typescript [styles\index.ts]
 import './vars.scss'
 ```
 
-```scss
-// styles/vars.scss
+```scss [styles\vars.scss]
 :root {
     // 文章框的底色
     --va-c-bg-light: rgba(255, 255, 255, 0.8);
@@ -454,7 +452,7 @@ pnpm valaxy new <title>
 
 也可以在项目的 `package.json` 中配置快捷脚本：
 
-```json
+```json [package.json]
 {
   "scripts": {
     "new": "valaxy new",
