@@ -54,7 +54,7 @@ export default defineSiteConfig({
     },
     {
       name: 'E-Mail',
-      link: 'mailto:yuumi0221@outlook.com',
+      link: 'mailto:yuumi0221@163.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
