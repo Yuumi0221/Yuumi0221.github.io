@@ -2,7 +2,7 @@
 layout: post
 title: Yuumi的翻唱合集
 date: 2022-08-31
-updated: 2024-08-30
+updated: 2025-05-06
 top: 10
 tags:
   - 翻唱
@@ -35,6 +35,17 @@ aplayer: true
 - 点击标题进入b站，点击图片进入网易云
 
 ## 2024
+
+### 🎵[打上花火](https://www.bilibili.com/video/BV19w4NecECZ)
+
+<img src="https://cdn.yuumi.link/images/songs/打上花火.jpg" alt="打上花火" style="height:250px;"/>
+
+- *2024.10.2*
+- Original：[DAOKO × 米津玄師](https://www.youtube.com/watch?v=-tKVN2mAKRI)
+- Vocal：Yuumi
+- Band: 饼飞Cookifei
+- Mix：蚊子
+- PV：Yuumi
 
 
 ### 🎵[キョリ感](https://www.bilibili.com/video/BV1AAW6eqEwE)
