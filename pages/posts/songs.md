@@ -2,7 +2,7 @@
 layout: post
 title: Yuumi的翻唱合集
 date: 2022-08-31
-updated: 2025-05-06
+updated: 2025-05-21
 top: 10
 tags:
   - 翻唱
@@ -34,7 +34,26 @@ aplayer: true
 - 歌曲以时间逆序排列
 - 点击标题进入b站，点击图片进入网易云
 
-## 2024
+## 2025
+
+### 🎵[深昏睡](https://www.bilibili.com/video/BV1e2JBzPEqa)
+
+<img src="https://cdn.yuumi.link/images/songs/深昏睡.png" alt="深昏睡" style="height:250px;"/>
+
+- *2025.5.21*
+- Original：[春野](https://www.bilibili.com/video/BV1dx411s7po)
+- Vocal&Mix: Yuumi
+- Special thanks: @章宛枫
+
+<meting-js
+ id="2707096680"
+ server="netease"
+ type="song"
+ theme="#D69B54">
+</meting-js>
+
+
+## 2024（共3首）
 
 ### 🎵[打上花火](https://www.bilibili.com/video/BV19w4NecECZ)
 
